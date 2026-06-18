@@ -1,0 +1,28 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained model weights
+*.h5
+*.hdf5
+*.keras
+
+# Data and intermediate assets
+datasets/
+assets_raw/
+
+# Secrets / credentials
+.env
+kaggle.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
