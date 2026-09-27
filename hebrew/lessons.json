@@ -1,0 +1,383 @@
+[
+  {
+    "title": "Greetings", "el_title": "Χαιρετισμοί",
+    "words": [
+      {"s": "shah-LOHM", "t": "shalom", "he": "שלום", "en": "Hello / Goodbye (lit. peace)", "el": "Γεια σου / Γεια σας"},
+      {"s": "BOH-ker TOHV", "t": "boker tov", "he": "בוקר טוב", "en": "Good morning", "el": "Καλημέρα"},
+      {"s": "EH-rev TOHV", "t": "erev tov", "he": "ערב טוב", "en": "Good evening", "el": "Καλησπέρα"},
+      {"s": "LAI-lah TOHV", "t": "laila tov", "he": "לילה טוב", "en": "Good night", "el": "Καληνύχτα"},
+      {"s": "mah nish-MAH?", "t": "ma nishma?", "he": "מה נשמע?", "en": "How's it going?", "el": "Τι νέα; / Τι γίνεται;"},
+      {"s": "toh-DAH", "t": "toda", "he": "תודה", "en": "Thank you", "el": "Ευχαριστώ"},
+      {"s": "beh-vah-kah-SHAH", "t": "bevakasha", "he": "בבקשה", "en": "Please / You're welcome", "el": "Παρακαλώ"},
+      {"s": "leh-heet-rah-OHT", "t": "lehitra'ot", "he": "להתראות", "en": "See you / Goodbye", "el": "Αντίο / Θα τα πούμε"}
+    ],
+    "sentence": {"s": "shah-LOHM, mah nish-MAH?", "he": "שלום, מה נשמע?", "en": "Hi, how's it going?", "el": "Γεια, τι νέα;"}
+  },
+  {
+    "title": "Yes, no and me", "el_title": "Ναι, όχι κι εγώ",
+    "words": [
+      {"s": "KEN", "t": "ken", "he": "כן", "en": "Yes", "el": "Ναι"},
+      {"s": "LOH", "t": "lo", "he": "לא", "en": "No / Not", "el": "Όχι / Δεν"},
+      {"s": "slee-KHAH", "t": "slicha", "he": "סליחה", "en": "Sorry / Excuse me", "el": "Συγγνώμη"},
+      {"s": "beh-SEH-der", "t": "beseder", "he": "בסדר", "en": "OK / Fine", "el": "Εντάξει"},
+      {"s": "ah-NEE", "t": "ani", "he": "אני", "en": "I", "el": "Εγώ"},
+      {"s": "ah-TAH / AHT", "t": "ata / at", "he": "אתה / את", "en": "You (to a man / to a woman)", "el": "Εσύ (σε άντρα / σε γυναίκα)"},
+      {"s": "HOO / HEE", "t": "hu / hi", "he": "הוא / היא", "en": "He / She", "el": "Αυτός / Αυτή"},
+      {"s": "ah-NAKH-noo", "t": "anachnu", "he": "אנחנו", "en": "We", "el": "Εμείς"}
+    ],
+    "sentence": {"s": "ah-NEE beh-SEH-der, toh-DAH.", "he": "אני בסדר, תודה.", "en": "I'm fine, thanks.", "el": "Είμαι καλά, ευχαριστώ."},
+    "tip": "Hebrew has no word for “am/is/are” in the present. “Ani beseder” is literally “I fine”."
+  },
+  {
+    "title": "Introduce yourself", "el_title": "Συστήσου",
+    "words": [
+      {"s": "AYKH koh-REEM leh-KHAH / LAKH?", "t": "eich korim lecha / lach?", "he": "איך קוראים לך?", "en": "What's your name? (to a man / woman)", "el": "Πώς σε λένε;"},
+      {"s": "koh-REEM lee …", "t": "korim li …", "he": "קוראים לי", "en": "My name is …", "el": "Με λένε …"},
+      {"s": "nah-EEM meh-OHD", "t": "na'im me'od", "he": "נעים מאוד", "en": "Nice to meet you", "el": "Χάρηκα πολύ"},
+      {"s": "meh-AY-foh ah-TAH / AHT?", "t": "me'eifo ata / at?", "he": "מאיפה אתה?", "en": "Where are you from?", "el": "Από πού είσαι;"},
+      {"s": "ah-NEE mee-yah-VAHN", "t": "ani mi-Yavan", "he": "אני מיוון", "en": "I'm from Greece", "el": "Είμαι από την Ελλάδα"},
+      {"s": "yeh-vah-NEE / yeh-vah-nee-YAH", "t": "yevani / yevaniya", "he": "יווני / יוונייה", "en": "Greek (man / woman)", "el": "Έλληνας / Ελληνίδα"},
+      {"s": "ah-NEE meh-dah-BER / meh-dah-BEH-ret eev-REET k'TSAT", "t": "ani medaber / medaberet ivrit ktsat", "he": "אני מדבר עברית קצת", "en": "I speak a little Hebrew (man / woman)", "el": "Μιλάω λίγα εβραϊκά"},
+      {"s": "ah-TAH meh-dah-BER ahn-GLEET?", "t": "ata medaber anglit?", "he": "אתה מדבר אנגלית?", "en": "Do you speak English?", "el": "Μιλάς αγγλικά;"}
+    ],
+    "sentence": {"s": "shah-LOHM, koh-REEM lee NEE-kos. ah-NEE mee-yah-VAHN.", "he": "שלום, קוראים לי ניקוס. אני מיוון.", "en": "Hi, my name is Nikos. I'm from Greece.", "el": "Γεια, με λένε Νίκο. Είμαι από την Ελλάδα."},
+    "tip": "Greece is “Yavan”, from the same root as Ίωνες (Ionians)."
+  },
+  {
+    "title": "Numbers 1–10", "el_title": "Αριθμοί 1–10",
+    "words": [
+      {"s": "ah-KHAT", "t": "achat", "he": "אחת", "en": "One", "el": "Ένα"},
+      {"s": "SHTAH-yeem", "t": "shtayim", "he": "שתיים", "en": "Two", "el": "Δύο"},
+      {"s": "shah-LOHSH", "t": "shalosh", "he": "שלוש", "en": "Three", "el": "Τρία"},
+      {"s": "ar-BAH", "t": "arba", "he": "ארבע", "en": "Four", "el": "Τέσσερα"},
+      {"s": "khah-MESH", "t": "chamesh", "he": "חמש", "en": "Five", "el": "Πέντε"},
+      {"s": "SHESH", "t": "shesh", "he": "שש", "en": "Six", "el": "Έξι"},
+      {"s": "SHEH-vah", "t": "sheva", "he": "שבע", "en": "Seven", "el": "Επτά"},
+      {"s": "shmoh-NEH", "t": "shmone", "he": "שמונה", "en": "Eight", "el": "Οκτώ"},
+      {"s": "TEH-shah", "t": "tesha", "he": "תשע", "en": "Nine", "el": "Εννιά"},
+      {"s": "EH-ser", "t": "eser", "he": "עשר", "en": "Ten", "el": "Δέκα"}
+    ],
+    "sentence": {"s": "ah-KHAT, SHTAH-yeem, shah-LOHSH — YAH-lah!", "he": "אחת, שתיים, שלוש, יאללה!", "en": "One, two, three, let's go!", "el": "Ένα, δύο, τρία, πάμε!"},
+    "tip": "These are the forms Israelis use for counting, phone numbers and prices."
+  },
+  {
+    "title": "Question words", "el_title": "Ερωτήσεις",
+    "words": [
+      {"s": "MAH?", "t": "ma?", "he": "מה?", "en": "What?", "el": "Τι;"},
+      {"s": "MEE?", "t": "mi?", "he": "מי?", "en": "Who?", "el": "Ποιος;"},
+      {"s": "AY-foh?", "t": "eifo?", "he": "איפה?", "en": "Where?", "el": "Πού;"},
+      {"s": "mah-TAI?", "t": "matai?", "he": "מתי?", "en": "When?", "el": "Πότε;"},
+      {"s": "LAH-mah?", "t": "lama?", "he": "למה?", "en": "Why?", "el": "Γιατί;"},
+      {"s": "AYKH?", "t": "eich?", "he": "איך?", "en": "How?", "el": "Πώς;"},
+      {"s": "KAH-mah?", "t": "kama?", "he": "כמה?", "en": "How much / how many?", "el": "Πόσο; / Πόσα;"},
+      {"s": "KAH-mah zeh oh-LEH?", "t": "kama ze ole?", "he": "כמה זה עולה?", "en": "How much does it cost?", "el": "Πόσο κάνει;"}
+    ],
+    "sentence": {"s": "slee-KHAH, AY-foh hah-sheh-roo-TEEM?", "he": "סליחה, איפה השירותים?", "en": "Excuse me, where is the toilet?", "el": "Συγγνώμη, πού είναι η τουαλέτα;"}
+  },
+  {
+    "title": "Survival phrases", "el_title": "Φράσεις επιβίωσης",
+    "words": [
+      {"s": "ah-NEE LOH meh-VEEN / meh-vee-NAH", "t": "ani lo mevin / mevina", "he": "אני לא מבין", "en": "I don't understand (man / woman)", "el": "Δεν καταλαβαίνω"},
+      {"s": "ah-TAH yah-KHOL lakh-ZOHR?", "t": "ata yachol lachzor?", "he": "אתה יכול לחזור?", "en": "Can you repeat?", "el": "Μπορείς να το ξαναπείς;"},
+      {"s": "leh-AHT leh-AHT", "t": "le'at le'at", "he": "לאט לאט", "en": "Slowly, slowly", "el": "Σιγά σιγά"},
+      {"s": "MAH zeh?", "t": "ma ze?", "he": "מה זה?", "en": "What is this?", "el": "Τι είναι αυτό;"},
+      {"s": "ZEH / ZOHT", "t": "ze / zot", "he": "זה / זאת", "en": "This (masc. / fem.)", "el": "Αυτό"},
+      {"s": "YESH", "t": "yesh", "he": "יש", "en": "There is / there are", "el": "Υπάρχει / Έχει"},
+      {"s": "AYN", "t": "ein", "he": "אין", "en": "There isn't", "el": "Δεν υπάρχει / Δεν έχει"},
+      {"s": "ah-NEE tsah-REEKH / tsree-KHAH EZ-rah", "t": "ani tsarich / tsricha ezra", "he": "אני צריך עזרה", "en": "I need help (man / woman)", "el": "Χρειάζομαι βοήθεια"}
+    ],
+    "sentence": {"s": "slee-KHAH, ah-NEE LOH meh-VEEN. leh-AHT leh-AHT, beh-vah-kah-SHAH.", "he": "סליחה, אני לא מבין. לאט לאט, בבקשה.", "en": "Sorry, I don't understand. Slowly, please.", "el": "Συγγνώμη, δεν καταλαβαίνω. Σιγά σιγά, παρακαλώ."},
+    "tip": "“Le'at le'at” works exactly like Greek “σιγά σιγά”, including the relaxed attitude."
+  },
+  {
+    "title": "Family", "el_title": "Οικογένεια",
+    "words": [
+      {"s": "EE-mah", "t": "ima", "he": "אמא", "en": "Mum", "el": "Μαμά"},
+      {"s": "AH-bah", "t": "aba", "he": "אבא", "en": "Dad", "el": "Μπαμπάς"},
+      {"s": "AKH", "t": "ach", "he": "אח", "en": "Brother", "el": "Αδελφός"},
+      {"s": "ah-KHOHT", "t": "achot", "he": "אחות", "en": "Sister (also: nurse)", "el": "Αδελφή"},
+      {"s": "BEN", "t": "ben", "he": "בן", "en": "Son", "el": "Γιος"},
+      {"s": "BAHT", "t": "bat", "he": "בת", "en": "Daughter", "el": "Κόρη"},
+      {"s": "BAH-al / ee-SHAH", "t": "ba'al / isha", "he": "בעל / אישה", "en": "Husband / Wife (also: woman)", "el": "Σύζυγος / Γυναίκα"},
+      {"s": "meesh-pah-KHAH", "t": "mishpacha", "he": "משפחה", "en": "Family", "el": "Οικογένεια"}
+    ],
+    "sentence": {"s": "YESH lee AKH veh-ah-KHOHT.", "he": "יש לי אח ואחות.", "en": "I have a brother and a sister.", "el": "Έχω έναν αδελφό και μια αδελφή."},
+    "tip": "“Yesh li” (there is to me) = I have. “Ein li” = I don't have."
+  },
+  {
+    "title": "Food and drink", "el_title": "Φαγητό και ποτό",
+    "words": [
+      {"s": "MAH-yeem", "t": "mayim", "he": "מים", "en": "Water", "el": "Νερό"},
+      {"s": "kah-FEH", "t": "kafe", "he": "קפה", "en": "Coffee", "el": "Καφές"},
+      {"s": "TEH", "t": "te", "he": "תה", "en": "Tea", "el": "Τσάι"},
+      {"s": "LEH-khem", "t": "lechem", "he": "לחם", "en": "Bread", "el": "Ψωμί"},
+      {"s": "khah-LAHV", "t": "chalav", "he": "חלב", "en": "Milk", "el": "Γάλα"},
+      {"s": "OH-khel", "t": "ochel", "he": "אוכל", "en": "Food", "el": "Φαγητό"},
+      {"s": "BEE-rah", "t": "bira", "he": "בירה", "en": "Beer", "el": "Μπύρα"},
+      {"s": "YAH-yeen", "t": "yayin", "he": "יין", "en": "Wine", "el": "Κρασί"}
+    ],
+    "sentence": {"s": "ah-NEE roh-TSEH / roh-TSAH kah-FEH, beh-vah-kah-SHAH.", "he": "אני רוצה קפה, בבקשה.", "en": "I'd like a coffee, please. (man / woman)", "el": "Θέλω έναν καφέ, παρακαλώ."}
+  },
+  {
+    "title": "At the café", "el_title": "Στο καφέ",
+    "words": [
+      {"s": "tahf-REET", "t": "tafrit", "he": "תפריט", "en": "Menu", "el": "Μενού / Κατάλογος"},
+      {"s": "khesh-BOHN", "t": "cheshbon", "he": "חשבון", "en": "The bill", "el": "Λογαριασμός"},
+      {"s": "tah-EEM", "t": "ta'im", "he": "טעים", "en": "Tasty", "el": "Νόστιμο"},
+      {"s": "beh-teh-ah-VOHN", "t": "beteavon", "he": "בתיאבון", "en": "Enjoy your meal", "el": "Καλή όρεξη"},
+      {"s": "leh-KHAH-yeem", "t": "lechayim", "he": "לחיים", "en": "Cheers! (lit. to life)", "el": "Στην υγειά μας!"},
+      {"s": "OHD", "t": "od", "he": "עוד", "en": "More / another", "el": "Κι άλλο / Ακόμα"},
+      {"s": "BLEE", "t": "bli", "he": "בלי", "en": "Without", "el": "Χωρίς"},
+      {"s": "EEM", "t": "im", "he": "עם", "en": "With", "el": "Με"}
+    ],
+    "sentence": {"s": "et hah-khesh-BOHN, beh-vah-kah-SHAH.", "he": "את החשבון, בבקשה.", "en": "The bill, please.", "el": "Τον λογαριασμό, παρακαλώ."},
+    "tip": "“ha-” in front of a word = “the”. Cheshbon = a bill, ha-cheshbon = the bill."
+  },
+  {
+    "title": "Everyday verbs (now)", "el_title": "Καθημερινά ρήματα (ενεστώτας)",
+    "words": [
+      {"s": "roh-TSEH / roh-TSAH", "t": "rotse / rotsa", "he": "רוצה", "en": "want (man / woman)", "el": "θέλω"},
+      {"s": "oh-HEV / oh-HEH-vet", "t": "ohev / ohevet", "he": "אוהב / אוהבת", "en": "love, like", "el": "αγαπώ / μου αρέσει"},
+      {"s": "hoh-LEKH / hoh-LEH-khet", "t": "holech / holechet", "he": "הולך / הולכת", "en": "go, walk", "el": "πηγαίνω"},
+      {"s": "BAH / bah-AH", "t": "ba / ba'a", "he": "בא / באה", "en": "come", "el": "έρχομαι"},
+      {"s": "oh-KHEL / oh-KHEH-let", "t": "ochel / ochelet", "he": "אוכל / אוכלת", "en": "eat", "el": "τρώω"},
+      {"s": "shoh-TEH / shoh-TAH", "t": "shote / shota", "he": "שותה", "en": "drink", "el": "πίνω"},
+      {"s": "yoh-DEH-ah / yoh-DAH-at", "t": "yode'a / yoda'at", "he": "יודע / יודעת", "en": "know", "el": "ξέρω"},
+      {"s": "meh-dah-BER / meh-dah-BEH-ret", "t": "medaber / medaberet", "he": "מדבר / מדברת", "en": "speak", "el": "μιλάω"}
+    ],
+    "sentence": {"s": "ah-NEE oh-HEV fah-LAH-fel.", "he": "אני אוהב פלאפל.", "en": "I love falafel.", "el": "Μου αρέσει το φαλάφελ."},
+    "tip": "Present-tense verbs don't change for I / you / he. They only change for man vs woman (and plural). Use the form that matches YOU."
+  },
+  {
+    "title": "Time words", "el_title": "Χρόνος",
+    "words": [
+      {"s": "hah-YOHM", "t": "hayom", "he": "היום", "en": "Today", "el": "Σήμερα"},
+      {"s": "mah-KHAR", "t": "machar", "he": "מחר", "en": "Tomorrow", "el": "Αύριο"},
+      {"s": "et-MOHL", "t": "etmol", "he": "אתמול", "en": "Yesterday", "el": "Χθες"},
+      {"s": "akh-SHAHV", "t": "achshav", "he": "עכשיו", "en": "Now", "el": "Τώρα"},
+      {"s": "ah-KHAR KAKH", "t": "achar kach", "he": "אחר כך", "en": "Later / afterwards", "el": "Μετά / Αργότερα"},
+      {"s": "k'VAR", "t": "kvar", "he": "כבר", "en": "Already", "el": "Ήδη"},
+      {"s": "ohd LOH", "t": "od lo", "he": "עוד לא", "en": "Not yet", "el": "Όχι ακόμα"},
+      {"s": "MAH hah-shah-AH?", "t": "ma hasha'a?", "he": "מה השעה?", "en": "What time is it?", "el": "Τι ώρα είναι;"}
+    ],
+    "sentence": {"s": "neet-rah-EH mah-KHAR!", "he": "נתראה מחר!", "en": "See you tomorrow!", "el": "Τα λέμε αύριο!"}
+  },
+  {
+    "title": "Days of the week", "el_title": "Μέρες της εβδομάδας",
+    "words": [
+      {"s": "yohm ree-SHOHN", "t": "yom rishon", "he": "יום ראשון", "en": "Sunday (day one)", "el": "Κυριακή"},
+      {"s": "yohm sheh-NEE", "t": "yom sheni", "he": "יום שני", "en": "Monday (day two)", "el": "Δευτέρα"},
+      {"s": "yohm shlee-SHEE", "t": "yom shlishi", "he": "יום שלישי", "en": "Tuesday (day three)", "el": "Τρίτη"},
+      {"s": "yohm reh-vee-EE", "t": "yom revi'i", "he": "יום רביעי", "en": "Wednesday (day four)", "el": "Τετάρτη"},
+      {"s": "yohm khah-mee-SHEE", "t": "yom chamishi", "he": "יום חמישי", "en": "Thursday (day five)", "el": "Πέμπτη"},
+      {"s": "yohm shee-SHEE", "t": "yom shishi", "he": "יום שישי", "en": "Friday (day six)", "el": "Παρασκευή"},
+      {"s": "shah-BAHT", "t": "shabat", "he": "שבת", "en": "Saturday", "el": "Σάββατο"},
+      {"s": "shah-VOO-ah", "t": "shavua", "he": "שבוע", "en": "Week", "el": "Εβδομάδα"}
+    ],
+    "sentence": {"s": "neet-rah-EH beh-yohm shee-SHEE.", "he": "נתראה ביום שישי.", "en": "See you on Friday.", "el": "Τα λέμε την Παρασκευή."},
+    "tip": "Same logic as Greek: Δευτέρα = second day, Τρίτη = third. Hebrew just starts counting on Sunday."
+  },
+  {
+    "title": "Getting around", "el_title": "Μετακίνηση",
+    "words": [
+      {"s": "YAH-mee-nah", "t": "yamina", "he": "ימינה", "en": "To the right", "el": "Δεξιά"},
+      {"s": "SMOH-lah", "t": "smola", "he": "שמאלה", "en": "To the left", "el": "Αριστερά"},
+      {"s": "yah-SHAR", "t": "yashar", "he": "ישר", "en": "Straight ahead", "el": "Ευθεία"},
+      {"s": "kah-ROHV", "t": "karov", "he": "קרוב", "en": "Near", "el": "Κοντά"},
+      {"s": "rah-KHOHK", "t": "rachok", "he": "רחוק", "en": "Far", "el": "Μακριά"},
+      {"s": "OH-toh-boos", "t": "otobus", "he": "אוטובוס", "en": "Bus", "el": "Λεωφορείο"},
+      {"s": "rah-KEH-vet", "t": "rakevet", "he": "רכבת", "en": "Train", "el": "Τρένο"},
+      {"s": "moh-NEET", "t": "monit", "he": "מונית", "en": "Taxi", "el": "Ταξί"}
+    ],
+    "sentence": {"s": "AYKH meh-gee-EEM lah-YAHM?", "he": "איך מגיעים לים?", "en": "How do I get to the sea?", "el": "Πώς πάω στη θάλασσα;"}
+  },
+  {
+    "title": "Places", "el_title": "Μέρη",
+    "words": [
+      {"s": "BAH-yeet", "t": "bayit", "he": "בית", "en": "House / home", "el": "Σπίτι"},
+      {"s": "khah-NOOT", "t": "chanut", "he": "חנות", "en": "Shop", "el": "Μαγαζί"},
+      {"s": "SHOOK", "t": "shuk", "he": "שוק", "en": "Market", "el": "Λαϊκή αγορά"},
+      {"s": "bayt kah-FEH", "t": "beit kafe", "he": "בית קפה", "en": "Café", "el": "Καφετέρια"},
+      {"s": "mees-ah-DAH", "t": "mis'ada", "he": "מסעדה", "en": "Restaurant", "el": "Εστιατόριο"},
+      {"s": "mah-LOHN", "t": "malon", "he": "מלון", "en": "Hotel", "el": "Ξενοδοχείο"},
+      {"s": "YAHM", "t": "yam", "he": "ים", "en": "Sea", "el": "Θάλασσα"},
+      {"s": "EER", "t": "ir", "he": "עיר", "en": "City", "el": "Πόλη"}
+    ],
+    "sentence": {"s": "ah-NEE hoh-LEKH lah-SHOOK.", "he": "אני הולך לשוק.", "en": "I'm going to the market.", "el": "Πάω στη λαϊκή."},
+    "tip": "“la-” = to the. La-yam = to the sea, la-shuk = to the market."
+  },
+  {
+    "title": "Describing things", "el_title": "Επίθετα",
+    "words": [
+      {"s": "gah-DOHL / g'doh-LAH", "t": "gadol / gdola", "he": "גדול / גדולה", "en": "Big", "el": "Μεγάλος / Μεγάλη"},
+      {"s": "kah-TAHN / k'tah-NAH", "t": "katan / ktana", "he": "קטן / קטנה", "en": "Small", "el": "Μικρός / Μικρή"},
+      {"s": "TOHV / toh-VAH", "t": "tov / tova", "he": "טוב / טובה", "en": "Good", "el": "Καλός / Καλή"},
+      {"s": "RAH / rah-AH", "t": "ra / ra'a", "he": "רע / רעה", "en": "Bad", "el": "Κακός / Κακή"},
+      {"s": "yah-FEH / yah-FAH", "t": "yafe / yafa", "he": "יפה", "en": "Beautiful", "el": "Ωραίος / Ωραία"},
+      {"s": "KHAHM / khah-MAH", "t": "cham / chama", "he": "חם / חמה", "en": "Hot", "el": "Ζεστός / Ζεστή"},
+      {"s": "KAR / kah-RAH", "t": "kar / kara", "he": "קר / קרה", "en": "Cold", "el": "Κρύος / Κρύα"},
+      {"s": "khah-DAHSH / khah-dah-SHAH", "t": "chadash / chadasha", "he": "חדש / חדשה", "en": "New", "el": "Καινούργιος / Καινούργια"}
+    ],
+    "sentence": {"s": "hah-YOHM KHAHM!", "he": "היום חם!", "en": "It's hot today!", "el": "Σήμερα κάνει ζέστη!"},
+    "tip": "Feminine usually adds “-ah” at the end, like Greek -ος → -η/-α."
+  },
+  {
+    "title": "Feelings", "el_title": "Συναισθήματα",
+    "words": [
+      {"s": "MAH shlohm-KHAH / shloh-MEKH?", "t": "ma shlomcha / shlomech?", "he": "מה שלומך?", "en": "How are you? (to a man / woman)", "el": "Πώς είσαι;"},
+      {"s": "sah-MEH-akh / s'meh-KHAH", "t": "sameach / smecha", "he": "שמח / שמחה", "en": "Happy", "el": "Χαρούμενος / Χαρούμενη"},
+      {"s": "ah-TSOOV / ah-tsoo-VAH", "t": "atsuv / atsuva", "he": "עצוב / עצובה", "en": "Sad", "el": "Λυπημένος / Λυπημένη"},
+      {"s": "ah-YEF / ah-yeh-FAH", "t": "ayef / ayefa", "he": "עייף / עייפה", "en": "Tired", "el": "Κουρασμένος / Κουρασμένη"},
+      {"s": "rah-EV / reh-eh-VAH", "t": "ra'ev / re'eva", "he": "רעב / רעבה", "en": "Hungry", "el": "Πεινάω"},
+      {"s": "tsah-MEH / ts'meh-AH", "t": "tsame / tsme'a", "he": "צמא / צמאה", "en": "Thirsty", "el": "Διψάω"},
+      {"s": "khoh-LEH / khoh-LAH", "t": "chole / chola", "he": "חולה", "en": "Sick", "el": "Άρρωστος / Άρρωστη"},
+      {"s": "ah-SOOK / ah-soo-KAH", "t": "asuk / asuka", "he": "עסוק / עסוקה", "en": "Busy", "el": "Απασχολημένος / -η"}
+    ],
+    "sentence": {"s": "ah-NEE ah-YEF, ah-VAL sah-MEH-akh.", "he": "אני עייף, אבל שמח.", "en": "I'm tired, but happy.", "el": "Είμαι κουρασμένος, αλλά χαρούμενος."}
+  },
+  {
+    "title": "Israeli slang", "el_title": "Ισραηλινή αργκό",
+    "words": [
+      {"s": "sah-BAH-bah", "t": "sababa", "he": "סבבה", "en": "Cool / great / OK", "el": "Τέλεια / Εντάξει"},
+      {"s": "YAH-lah", "t": "yalla", "he": "יאללה", "en": "Come on / let's go", "el": "Άντε / Έλα / Πάμε"},
+      {"s": "WAH-lah", "t": "walla", "he": "וואלה", "en": "Really? / Wow", "el": "Αλήθεια; / Σοβαρά;"},
+      {"s": "AYN bah-ah-YAH", "t": "ein ba'aya", "he": "אין בעיה", "en": "No problem", "el": "Κανένα πρόβλημα"},
+      {"s": "STAHM", "t": "stam", "he": "סתם", "en": "Just kidding / for no reason", "el": "Πλάκα κάνω / Έτσι"},
+      {"s": "khah-VAHL al hah-z'MAHN", "t": "chaval al hazman", "he": "חבל על הזמן", "en": "Amazing! (lit. waste of time)", "el": "Απίστευτο! / Φοβερό!"},
+      {"s": "bah-lah-GAHN", "t": "balagan", "he": "בלגן", "en": "A mess, chaos", "el": "Χάος / Μπάχαλο"},
+      {"s": "TAKH-les", "t": "tachles", "he": "תכלס", "en": "Bottom line / let's be real", "el": "Στην ουσία / Με λίγα λόγια"}
+    ],
+    "sentence": {"s": "YAH-lah, sah-BAH-bah!", "he": "יאללה, סבבה!", "en": "Come on, cool!", "el": "Άντε, τέλεια!"},
+    "tip": "You'll hear “yalla”, “walla” and “sababa” all over the Eastern Mediterranean, even in Greek-speaking Cyprus."
+  },
+  {
+    "title": "Numbers and money", "el_title": "Αριθμοί και χρήματα",
+    "words": [
+      {"s": "ah-KHAT es-REH", "t": "achat esre", "he": "אחת עשרה", "en": "Eleven", "el": "Έντεκα"},
+      {"s": "es-REEM", "t": "esrim", "he": "עשרים", "en": "Twenty", "el": "Είκοσι"},
+      {"s": "shloh-SHEEM", "t": "shloshim", "he": "שלושים", "en": "Thirty", "el": "Τριάντα"},
+      {"s": "ar-bah-EEM", "t": "arba'im", "he": "ארבעים", "en": "Forty", "el": "Σαράντα"},
+      {"s": "khah-mee-SHEEM", "t": "chamishim", "he": "חמישים", "en": "Fifty", "el": "Πενήντα"},
+      {"s": "meh-AH", "t": "me'a", "he": "מאה", "en": "Hundred", "el": "Εκατό"},
+      {"s": "EH-lef", "t": "elef", "he": "אלף", "en": "Thousand", "el": "Χίλια"},
+      {"s": "SHEH-kel", "t": "shekel", "he": "שקל", "en": "Shekel (Israeli money)", "el": "Σέκελ"}
+    ],
+    "sentence": {"s": "zeh oh-LEH es-REEM SHEH-kel.", "he": "זה עולה עשרים שקל.", "en": "It costs twenty shekels.", "el": "Κάνει είκοσι σέκελ."},
+    "tip": "Tens are the small number + “-eem”: shalosh → shloshim. 25 = esrim ve-chamesh (twenty and five)."
+  },
+  {
+    "title": "Shopping", "el_title": "Ψώνια",
+    "words": [
+      {"s": "leek-NOHT", "t": "liknot", "he": "לקנות", "en": "To buy", "el": "Να αγοράσω"},
+      {"s": "yah-KAR", "t": "yakar", "he": "יקר", "en": "Expensive", "el": "Ακριβό"},
+      {"s": "ZOHL", "t": "zol", "he": "זול", "en": "Cheap", "el": "Φτηνό"},
+      {"s": "meev-TSAH", "t": "mivtsa", "he": "מבצע", "en": "Special offer / sale", "el": "Προσφορά"},
+      {"s": "kar-TEES ash-RAI", "t": "kartis ashrai", "he": "כרטיס אשראי", "en": "Credit card", "el": "Πιστωτική κάρτα"},
+      {"s": "meh-zoo-MAHN", "t": "mezuman", "he": "מזומן", "en": "Cash", "el": "Μετρητά"},
+      {"s": "sah-KEET", "t": "sakit", "he": "שקית", "en": "Bag", "el": "Σακούλα"},
+      {"s": "ef-SHAR …?", "t": "efshar …?", "he": "אפשר", "en": "May I have …? / Is it possible …?", "el": "Γίνεται …; / Μπορώ να έχω …;"}
+    ],
+    "sentence": {"s": "ef-SHAR leh-shah-LEM beh-kar-TEES?", "he": "אפשר לשלם בכרטיס?", "en": "Can I pay by card?", "el": "Μπορώ να πληρώσω με κάρτα;"},
+    "tip": "“Efshar” is the most useful word in Israel: efshar mayim? efshar ha-cheshbon?"
+  },
+  {
+    "title": "Body and health", "el_title": "Σώμα και υγεία",
+    "words": [
+      {"s": "ROHSH", "t": "rosh", "he": "ראש", "en": "Head", "el": "Κεφάλι"},
+      {"s": "YAHD", "t": "yad", "he": "יד", "en": "Hand / arm", "el": "Χέρι"},
+      {"s": "REH-gel", "t": "regel", "he": "רגל", "en": "Foot / leg", "el": "Πόδι"},
+      {"s": "BEH-ten", "t": "beten", "he": "בטן", "en": "Stomach", "el": "Κοιλιά"},
+      {"s": "LEV", "t": "lev", "he": "לב", "en": "Heart", "el": "Καρδιά"},
+      {"s": "koh-EV lee …", "t": "ko'ev li …", "he": "כואב לי", "en": "My … hurts", "el": "Με πονάει …"},
+      {"s": "roh-FEH", "t": "rofe", "he": "רופא", "en": "Doctor", "el": "Γιατρός"},
+      {"s": "bayt mer-KAH-khat", "t": "beit merkachat", "he": "בית מרקחת", "en": "Pharmacy", "el": "Φαρμακείο"}
+    ],
+    "sentence": {"s": "koh-EV lee hah-ROHSH.", "he": "כואב לי הראש.", "en": "I have a headache.", "el": "Με πονάει το κεφάλι."}
+  },
+  {
+    "title": "Yesterday: I did", "el_title": "Αόριστος: έκανα",
+    "words": [
+      {"s": "hah-YEE-tee", "t": "hayiti", "he": "הייתי", "en": "I was", "el": "Ήμουν"},
+      {"s": "hah-LAKH-tee", "t": "halachti", "he": "הלכתי", "en": "I went", "el": "Πήγα"},
+      {"s": "ah-KHAL-tee", "t": "achalti", "he": "אכלתי", "en": "I ate", "el": "Έφαγα"},
+      {"s": "shah-TEE-tee", "t": "shatiti", "he": "שתיתי", "en": "I drank", "el": "Ήπια"},
+      {"s": "rah-EE-tee", "t": "ra'iti", "he": "ראיתי", "en": "I saw", "el": "Είδα"},
+      {"s": "ah-MAR-tee", "t": "amarti", "he": "אמרתי", "en": "I said", "el": "Είπα"},
+      {"s": "ah-SEE-tee", "t": "asiti", "he": "עשיתי", "en": "I did / made", "el": "Έκανα"},
+      {"s": "shah-MAH-tee", "t": "shamati", "he": "שמעתי", "en": "I heard", "el": "Άκουσα"}
+    ],
+    "sentence": {"s": "et-MOHL hah-YEE-tee bah-YAHM.", "he": "אתמול הייתי בים.", "en": "Yesterday I was at the sea.", "el": "Χθες ήμουν στη θάλασσα."},
+    "tip": "Past tense “I” always ends in “-tee”, just like Greek aorist ends in “-α” (πήγα, έφαγα). Same for men and women."
+  },
+  {
+    "title": "Tomorrow: I will", "el_title": "Μέλλοντας: θα",
+    "words": [
+      {"s": "ah-NEE eh-LEKH", "t": "ani elech", "he": "אני אלך", "en": "I will go", "el": "Θα πάω"},
+      {"s": "ah-NEE ah-VOH", "t": "ani avo", "he": "אני אבוא", "en": "I will come", "el": "Θα έρθω"},
+      {"s": "ah-NEE ah-dah-BER", "t": "ani adaber", "he": "אני אדבר", "en": "I will speak", "el": "Θα μιλήσω"},
+      {"s": "ah-NEE oh-KHAL", "t": "ani ochal", "he": "אני אוכל", "en": "I will eat", "el": "Θα φάω"},
+      {"s": "ah-NEE eh-YEH", "t": "ani ehye", "he": "אני אהיה", "en": "I will be", "el": "Θα είμαι"},
+      {"s": "ah-NEE ek-NEH", "t": "ani ekne", "he": "אני אקנה", "en": "I will buy", "el": "Θα αγοράσω"},
+      {"s": "ah-NEE akh-ZOHR", "t": "ani achzor", "he": "אני אחזור", "en": "I will come back", "el": "Θα γυρίσω"},
+      {"s": "ah-NEE et-kah-SHER", "t": "ani etkasher", "he": "אני אתקשר", "en": "I will call (phone)", "el": "Θα τηλεφωνήσω"}
+    ],
+    "sentence": {"s": "mah-KHAR ah-NEE eh-LEKH lah-YAHM.", "he": "מחר אני אלך לים.", "en": "Tomorrow I'll go to the sea.", "el": "Αύριο θα πάω στη θάλασσα."},
+    "tip": "Future “I” starts with an “e-” or “a-” sound. Think of it as Hebrew's “θα”."
+  },
+  {
+    "title": "Weather and nature", "el_title": "Καιρός και φύση",
+    "words": [
+      {"s": "SHEH-mesh", "t": "shemesh", "he": "שמש", "en": "Sun", "el": "Ήλιος"},
+      {"s": "GEH-shem", "t": "geshem", "he": "גשם", "en": "Rain", "el": "Βροχή"},
+      {"s": "ROO-akh", "t": "ruach", "he": "רוח", "en": "Wind", "el": "Αέρας"},
+      {"s": "ah-nah-NEEM", "t": "ananim", "he": "עננים", "en": "Clouds", "el": "Σύννεφα"},
+      {"s": "KHOHF", "t": "chof", "he": "חוף", "en": "Beach", "el": "Παραλία"},
+      {"s": "HAR", "t": "har", "he": "הר", "en": "Mountain", "el": "Βουνό"},
+      {"s": "ETS", "t": "ets", "he": "עץ", "en": "Tree", "el": "Δέντρο"},
+      {"s": "PRAKH", "t": "perach", "he": "פרח", "en": "Flower", "el": "Λουλούδι"}
+    ],
+    "sentence": {"s": "yoh-RED GEH-shem.", "he": "יורד גשם.", "en": "It's raining.", "el": "Βρέχει."}
+  },
+  {
+    "title": "Daily routine", "el_title": "Καθημερινότητα",
+    "words": [
+      {"s": "lah-KOOM", "t": "lakum", "he": "לקום", "en": "To get up", "el": "Να σηκωθώ"},
+      {"s": "lee-SHOHN", "t": "lishon", "he": "לישון", "en": "To sleep", "el": "Να κοιμηθώ"},
+      {"s": "lah-ah-VOHD", "t": "la'avod", "he": "לעבוד", "en": "To work", "el": "Να δουλέψω"},
+      {"s": "ah-voh-DAH", "t": "avoda", "he": "עבודה", "en": "Work / job", "el": "Δουλειά"},
+      {"s": "KHEH-der", "t": "cheder", "he": "חדר", "en": "Room", "el": "Δωμάτιο"},
+      {"s": "meet-BAKH", "t": "mitbach", "he": "מטבח", "en": "Kitchen", "el": "Κουζίνα"},
+      {"s": "mee-TAH", "t": "mita", "he": "מיטה", "en": "Bed", "el": "Κρεβάτι"},
+      {"s": "ah-NEE tsah-REEKH lah-LEH-khet", "t": "ani tsarich lalechet", "he": "אני צריך ללכת", "en": "I have to go", "el": "Πρέπει να φύγω"}
+    ],
+    "sentence": {"s": "ah-NEE hoh-LEKH lee-SHOHN.", "he": "אני הולך לישון.", "en": "I'm going to sleep.", "el": "Πάω για ύπνο."}
+  },
+  {
+    "title": "Linking words", "el_title": "Σύνδεσμοι",
+    "words": [
+      {"s": "veh-", "t": "ve-", "he": "ו", "en": "And (glued to the next word)", "el": "Και"},
+      {"s": "ah-VAL", "t": "aval", "he": "אבל", "en": "But", "el": "Αλλά"},
+      {"s": "KEE", "t": "ki", "he": "כי", "en": "Because", "el": "Επειδή / Γιατί"},
+      {"s": "AHZ", "t": "az", "he": "אז", "en": "So / then", "el": "Οπότε / Λοιπόν"},
+      {"s": "GAHM", "t": "gam", "he": "גם", "en": "Also / too", "el": "Επίσης / Και"},
+      {"s": "RAHK", "t": "rak", "he": "רק", "en": "Only", "el": "Μόνο"},
+      {"s": "EEM", "t": "im", "he": "אם", "en": "If (sounds like “with”)", "el": "Αν"},
+      {"s": "ah-NEE khoh-SHEV sheh …", "t": "ani choshev she …", "he": "אני חושב ש", "en": "I think that …", "el": "Νομίζω ότι …"}
+    ],
+    "sentence": {"s": "ah-NEE loh-MED eev-REET KEE ah-NEE oh-HEV et hah-sah-FAH.", "he": "אני לומד עברית כי אני אוהב את השפה.", "en": "I'm learning Hebrew because I love the language.", "el": "Μαθαίνω εβραϊκά επειδή αγαπώ τη γλώσσα."}
+  },
+  {
+    "title": "Wishes and celebrations", "el_title": "Ευχές",
+    "words": [
+      {"s": "MAH-zahl TOHV", "t": "mazal tov", "he": "מזל טוב", "en": "Congratulations", "el": "Συγχαρητήρια"},
+      {"s": "yohm hoo-LEH-det sah-MEH-akh", "t": "yom huledet sameach", "he": "יום הולדת שמח", "en": "Happy birthday", "el": "Χρόνια πολλά (γενέθλια)"},
+      {"s": "shah-BAHT shah-LOHM", "t": "shabat shalom", "he": "שבת שלום", "en": "Have a good Sabbath (Fri–Sat greeting)", "el": "Καλό Σαββατοκύριακο"},
+      {"s": "KHAG sah-MEH-akh", "t": "chag sameach", "he": "חג שמח", "en": "Happy holiday", "el": "Καλές γιορτές"},
+      {"s": "KOHL hah-kah-VOHD", "t": "kol hakavod", "he": "כל הכבוד", "en": "Well done!", "el": "Μπράβο!"},
+      {"s": "beh-hats-lah-KHAH", "t": "behatslacha", "he": "בהצלחה", "en": "Good luck", "el": "Καλή επιτυχία"},
+      {"s": "reh-foo-AH shleh-MAH", "t": "refu'a shlema", "he": "רפואה שלמה", "en": "Get well soon", "el": "Περαστικά"},
+      {"s": "shah-NAH toh-VAH", "t": "shana tova", "he": "שנה טובה", "en": "Happy new year", "el": "Καλή χρονιά"}
+    ],
+    "sentence": {"s": "KOHL hah-kah-VOHD! see-YAHM-tah shloh-SHEEM yohm!", "he": "כל הכבוד! סיימת שלושים יום!", "en": "Well done! You finished thirty days!", "el": "Μπράβο! Τελείωσες τριάντα μέρες!"}
+  }
+]

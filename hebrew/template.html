@@ -1,0 +1,278 @@
+<title>Ivrit Daily</title>
+<meta name="description" content="30 days of spoken Israeli Hebrew for Greek and English speakers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Rubik:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#EDF1F0; --surface:#FFFFFF; --sunk:#E2E8E7; --ink:#14232A; --muted:#566A70;
+  --line:#CFD9D8; --accent:#0A6C86; --accent-ink:#FFFFFF; --accent-soft:#D5E9EE; --done:#2F7D4F;
+  --display:"Rubik",system-ui,sans-serif; --body:"Atkinson Hyperlegible",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark; --bg:#0E171A; --surface:#152226; --sunk:#1C2C31; --ink:#E4EEEF; --muted:#94A9AE;
+  --line:#2A3D43; --accent:#5CC3DE; --accent-ink:#082027; --accent-soft:#1B3B45; --done:#6CCB92;
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark; --bg:#0E171A; --surface:#152226; --sunk:#1C2C31; --ink:#E4EEEF; --muted:#94A9AE;
+  --line:#2A3D43; --accent:#5CC3DE; --accent-ink:#082027; --accent-soft:#1B3B45; --done:#6CCB92;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.5 var(--body);margin:0}
+.wrap{max-width:860px;margin:0 auto;padding-inline:16px;padding-block:28px 64px;display:grid;gap:28px}
+.wrap>*{min-width:0}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+button,input{font:inherit;color:inherit}
+button:focus-visible,input:focus-visible,.day:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+header{display:grid;gap:6px}
+.brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1{font-size:clamp(2rem,6vw,2.8rem);font-weight:700;letter-spacing:-.02em}
+.he-mark{font-family:var(--display);font-size:1.6rem;color:var(--accent);direction:rtl}
+.lede{color:var(--muted);max-width:60ch;margin:0}
+
+.strip{overflow-x:auto;padding-bottom:6px}
+.days{display:grid;grid-template-columns:repeat(30,44px);gap:6px}
+.day{height:52px;border:1px solid var(--line);background:var(--surface);border-radius:8px;cursor:pointer;
+  display:grid;place-items:center;align-content:center;gap:0;font-variant-numeric:tabular-nums;line-height:1.1}
+.day b{font-family:var(--display);font-size:1rem}
+.day small{font-size:.62rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.day.review{background:var(--sunk)}
+.day.done{border-color:var(--done)}
+.day.done small{color:var(--done)}
+.day.today{box-shadow:inset 0 0 0 2px var(--accent)}
+.day[aria-current="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.day[aria-current="true"] small{color:var(--accent-ink)}
+
+.lesson{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 18px;display:grid;gap:18px}
+.lesson-head{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:flex-end}
+.eyebrow{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);font-weight:700}
+.lesson h2{font-size:1.6rem;font-weight:500}
+.lesson .el-title{color:var(--muted)}
+.controls{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;cursor:pointer;font-size:.9rem}
+.btn[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
+.btn.primary.is-done{background:var(--done);border-color:var(--done)}
+
+.words{list-style:none;margin:0;padding:0;display:grid}
+.word{display:grid;grid-template-columns:44px 1fr;gap:14px;padding:14px 0;border-top:1px solid var(--line);align-items:start}
+.word:first-child{border-top:0}
+.play{width:40px;height:40px;border-radius:50%;border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;display:grid;place-items:center}
+.play:hover{background:var(--accent-soft)}
+.play svg{width:14px;height:14px;fill:currentColor;margin-left:2px}
+.say{font-family:var(--display);font-size:1.35rem;font-weight:400;letter-spacing:.01em;overflow-wrap:anywhere;cursor:default}
+.say b{font-weight:700;color:var(--accent)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 18px;font-size:.95rem;margin-top:2px}
+.meta .el{color:var(--ink)}
+.meta .en{color:var(--muted)}
+.spell{font-size:.78rem;color:var(--muted);letter-spacing:.02em}
+.spell i{font-style:normal;font-family:var(--display);direction:rtl;unicode-bidi:isolate;margin-left:6px}
+.practice .say{filter:blur(7px);cursor:pointer;user-select:none;transition:filter .2s}
+.practice .spell{visibility:hidden}
+.practice .word.revealed .say{filter:none}
+.practice .word.revealed .spell{visibility:visible}
+@media (prefers-reduced-motion:reduce){.practice .say{transition:none}}
+
+.sentence{background:var(--accent-soft);border-radius:10px;padding:16px;display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.sentence .say{font-size:1.2rem}
+.tip{border-left:3px solid var(--accent);padding:2px 0 2px 14px;margin:0;color:var(--ink);max-width:65ch}
+.tip strong{font-family:var(--display);font-weight:500}
+.voice-note{font-size:.85rem;color:var(--muted);margin:0}
+
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px;align-items:start}
+section.panel{display:grid;gap:12px}
+section.panel h3{font-size:1.15rem;font-weight:500}
+.guide{width:100%;border-collapse:collapse;font-size:.92rem}
+.guide td{padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+.guide td:first-child{font-family:var(--display);font-weight:700;color:var(--accent);white-space:nowrap;width:4.5em}
+.plan{margin:0;padding-left:1.2em;display:grid;gap:6px}
+.settings{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:.92rem}
+.settings input{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 8px}
+.small{font-size:.88rem;color:var(--muted);margin:0}
+code{font-size:.85em;background:var(--sunk);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand"><h1>Ivrit Daily</h1><span class="he-mark" lang="he">עברית</span></div>
+    <p class="lede">30 days of spoken Israeli Hebrew. Every word is written the way it sounds, with the <b style="color:var(--accent)">stressed syllable</b> highlighted, plus the meaning in Greek and English. Tap ▶ to hear it.</p>
+  </header>
+
+  <div class="strip" aria-label="Choose a day"><div class="days" id="days"></div></div>
+
+  <article class="lesson" id="lesson" aria-live="polite"></article>
+
+  <div class="two">
+    <section class="panel" aria-labelledby="g-h">
+      <h3 id="g-h">How to read the pronunciation</h3>
+      <table class="guide"><tbody>
+        <tr><td>kh</td><td>Exactly the Greek <b>χ</b> (χαρά, χέρι). The most common “foreign” Hebrew sound, and you already have it.</td></tr>
+        <tr><td>r</td><td>Made in the throat, like French r. Close to Greek <b>γ</b> in γάλα. Never rolled like Greek ρ.</td></tr>
+        <tr><td>ts</td><td>Greek <b>τσ</b> as in τσάι.</td></tr>
+        <tr><td>sh</td><td>English “sh” as in <i>shop</i>. Round your lips more than for σ.</td></tr>
+        <tr><td>h</td><td>A light breath, as in English <i>hello</i>. Israelis often drop it in fast speech.</td></tr>
+        <tr><td>a e i o u</td><td>Written ah, eh, ee, oh, oo. The same five vowels as Greek α, ε, ι, ο, ου. Keep them short and clean.</td></tr>
+        <tr><td>ay</td><td>Like Greek “έι” in κέικ: <i>AY-foh</i>.</td></tr>
+        <tr><td>'</td><td>A tiny break, as in English “uh-oh”. In <i>k'TSAT</i> the k runs straight into ts.</td></tr>
+        <tr><td><b style="color:var(--accent)">CAPS</b></td><td>The stressed syllable, like the Greek τόνος. Most Hebrew words stress the last syllable.</td></tr>
+        <tr><td>/</td><td>Two forms: first for a man, second for a woman. Choose the one that matches <i>you</i> (when you talk about yourself) or the person you're talking to.</td></tr>
+      </tbody></table>
+    </section>
+
+    <section class="panel" aria-labelledby="p-h">
+      <h3 id="p-h">Your daily routine (15 minutes)</h3>
+      <ol class="plan">
+        <li><b>Listen</b> to each word twice with ▶ and repeat out loud.</li>
+        <li><b>Say</b> the sentence of the day three times, a bit faster each time.</li>
+        <li><b>Test</b> yourself: switch on <i>Practice</i>, look at the Greek, say the Hebrew, then tap to check.</li>
+        <li><b>Use</b> one word in your head during the day: say “toda” instead of “ευχαριστώ”.</li>
+        <li>Press <b>Mark day done</b>. Every 7th day is a review of the week.</li>
+      </ol>
+      <h3>Daily reminders</h3>
+      <p class="small">Add <code>hebrew/hebrew-daily.ics</code> from the GitHub repo to your phone's calendar. You get a 9:00 notification each day with that day's words inside it.</p>
+      <div class="settings">
+        <label for="start">My day 1 is</label>
+        <input type="date" id="start">
+      </div>
+      <p class="small" id="voice-status"></p>
+    </section>
+  </div>
+</div>
+
+<script>
+const LESSONS = __LESSONS__;
+const DEFAULT_START = "__START__";
+const REVIEW_DAYS = [7,14,21,28];
+
+// Build the 30-day schedule: lessons in order, a review every 7th day.
+const SCHEDULE = [];
+{ let li = 0, week = [];
+  for (let d = 1; d <= 30; d++) {
+    if (REVIEW_DAYS.includes(d)) { SCHEDULE.push({day:d, review:true, lessons:week}); week = []; }
+    else { SCHEDULE.push({day:d, review:false, lesson:li}); week.push(li); li++; }
+  }
+}
+
+const store = {
+  get(k, f){ try { const v = localStorage.getItem(k); return v === null ? f : JSON.parse(v); } catch { return f; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+let start = store.get("ivrit.start", DEFAULT_START);
+let done = new Set(store.get("ivrit.done", []));
+let practice = store.get("ivrit.practice", false);
+
+function todayIndex(){
+  const s = new Date(start + "T00:00:00"), n = new Date(); n.setHours(0,0,0,0);
+  const d = Math.floor((n - s) / 864e5) + 1;
+  return Math.min(30, Math.max(1, d));
+}
+let current = todayIndex();
+
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+// Uppercase runs mark the stressed syllable: "shah-LOHM" -> shah-<b>lohm</b>
+const sayHTML = s => esc(s).replace(/[A-Z][A-Z']*/g, m => `<b>${m.toLowerCase()}</b>`);
+
+// Speech
+let heVoice = null;
+function pickVoice(){
+  if (!("speechSynthesis" in window)) return;
+  heVoice = speechSynthesis.getVoices().find(v => /^he|^iw/i.test(v.lang)) || null;
+  document.getElementById("voice-status").textContent = heVoice
+    ? `Audio: using the “${heVoice.name}” Hebrew voice on this device.`
+    : "Audio: no Hebrew voice found on this device yet. On a phone, add Hebrew under Settings → Text-to-speech / Spoken content, then reload.";
+}
+if ("speechSynthesis" in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+else document.getElementById("voice-status").textContent = "Audio isn't supported in this browser.";
+function speak(he){
+  if (!("speechSynthesis" in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(he.replace(/\s*\/\s*/g, ", "));
+  u.lang = "he-IL"; u.rate = 0.8; if (heVoice) u.voice = heVoice;
+  speechSynthesis.speak(u);
+}
+const PLAY = '<svg viewBox="0 0 10 12" aria-hidden="true"><path d="M0 0l10 6-10 6z"/></svg>';
+
+function wordLI(w){
+  return `<li class="word">
+    <button class="play" data-he="${esc(w.he)}" aria-label="Play ${esc(w.t)}">${PLAY}</button>
+    <div>
+      <div class="say" tabindex="0">${sayHTML(w.s)}</div>
+      <div class="spell">${esc(w.t)}<i lang="he">${esc(w.he)}</i></div>
+      <div class="meta"><span class="el" lang="el">${esc(w.el)}</span><span class="en">${esc(w.en)}</span></div>
+    </div></li>`;
+}
+
+// Deterministic shuffle so a review day keeps its order between visits
+function shuffled(arr, seed){ const a = arr.slice(); let x = seed;
+  for (let i = a.length - 1; i > 0; i--) { x = (x * 9301 + 49297) % 233280; const j = Math.floor(x / 233280 * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a; }
+
+function renderDays(){
+  const t = todayIndex();
+  document.getElementById("days").innerHTML = SCHEDULE.map(s =>
+    `<button class="day${s.review?" review":""}${done.has(s.day)?" done":""}${s.day===t?" today":""}" data-day="${s.day}" aria-current="${s.day===current}" aria-label="Day ${s.day}${s.review?", review":""}${done.has(s.day)?", done":""}">
+      <b>${s.day}</b><small>${done.has(s.day) ? "done" : s.review ? "review" : s.day===t ? "today" : "&nbsp;"}</small></button>`).join("");
+  const el = document.querySelector(`.day[data-day="${current}"]`);
+  el && el.scrollIntoView({block:"nearest", inline:"center"});
+}
+
+function renderLesson(){
+  const s = SCHEDULE[current - 1], box = document.getElementById("lesson");
+  const isDone = done.has(current);
+  let head, body;
+  if (s.review) {
+    const words = shuffled(s.lessons.flatMap(i => LESSONS[i].words), current);
+    const names = s.lessons.map(i => LESSONS[i].title).join(" · ");
+    head = `<div><div class="eyebrow">Day ${current} · Review</div><h2>This week's words</h2><div class="el-title">Επανάληψη: ${esc(names)}</div></div>`;
+    body = `<p class="tip"><strong>Review day.</strong> Practice mode is on. Read the Greek, say the Hebrew out loud, then tap the blurred line to check yourself.</p>
+      <ul class="words">${words.map(wordLI).join("")}</ul>`;
+  } else {
+    const L = LESSONS[s.lesson];
+    head = `<div><div class="eyebrow">Day ${current} · Lesson ${s.lesson + 1} of ${LESSONS.length}</div><h2>${esc(L.title)}</h2><div class="el-title" lang="el">${esc(L.el_title)}</div></div>`;
+    body = `<ul class="words">${L.words.map(wordLI).join("")}</ul>
+      <div class="sentence"><button class="play" data-he="${esc(L.sentence.he)}" aria-label="Play sentence">${PLAY}</button>
+        <div><div class="eyebrow">Sentence of the day</div><div class="say" tabindex="0">${sayHTML(L.sentence.s)}</div>
+        <div class="meta"><span class="el" lang="el">${esc(L.sentence.el)}</span><span class="en">${esc(L.sentence.en)}</span></div></div></div>
+      ${L.tip ? `<p class="tip"><strong>Tip.</strong> ${esc(L.tip)}</p>` : ""}`;
+  }
+  const prac = s.review || practice;
+  box.classList.toggle("practice", prac);
+  box.innerHTML = `<div class="lesson-head">${head}
+    <div class="controls">
+      <button class="btn" id="prac" aria-pressed="${prac}">Practice: ${prac ? "on" : "off"}</button>
+      <button class="btn primary${isDone ? " is-done" : ""}" id="mark">${isDone ? "✓ Done" : "Mark day done"}</button>
+    </div></div>${body}`;
+}
+
+function render(){ renderDays(); renderLesson(); }
+
+document.getElementById("days").addEventListener("click", e => {
+  const b = e.target.closest(".day"); if (!b) return;
+  current = +b.dataset.day; render();
+});
+document.getElementById("lesson").addEventListener("click", e => {
+  const p = e.target.closest(".play"); if (p) { speak(p.dataset.he); return; }
+  if (e.target.closest("#prac")) {
+    const box = document.getElementById("lesson");
+    const on = !box.classList.contains("practice");
+    if (!SCHEDULE[current-1].review) { practice = on; store.set("ivrit.practice", on); }
+    box.classList.toggle("practice", on);
+    const b = document.getElementById("prac"); b.setAttribute("aria-pressed", on); b.textContent = `Practice: ${on ? "on" : "off"}`;
+    return;
+  }
+  if (e.target.closest("#mark")) {
+    done.has(current) ? done.delete(current) : done.add(current);
+    store.set("ivrit.done", [...done]); render(); return;
+  }
+  const say = e.target.closest(".say"); if (say) say.closest(".word")?.classList.toggle("revealed");
+});
+document.getElementById("lesson").addEventListener("keydown", e => {
+  if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("say")) { e.preventDefault(); e.target.closest(".word")?.classList.toggle("revealed"); }
+});
+const startInput = document.getElementById("start");
+startInput.value = start;
+startInput.addEventListener("change", () => { if (!startInput.value) return; start = startInput.value; store.set("ivrit.start", start); current = todayIndex(); render(); });
+
+render();
+</script>

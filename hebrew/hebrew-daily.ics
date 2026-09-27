@@ -1,0 +1,715 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ivrit Daily//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Ivrit Daily (Hebrew)
+BEGIN:VEVENT
+UID:ivrit-daily-1@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20260928T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 1: Greetings / Χαιρετισμοί
+DESCRIPTION:shah-LOHM  =  Γεια σου / Γεια σας  /  Hello / Goo
+ dbye (lit. peace)\nBOH-ker TOHV  =  Καλημέρα  /  Good morning\nEH-
+ rev TOHV  =  Καλησπέρα  /  Good evening\nLAI-lah TOHV  =  Καλ
+ ηνύχτα  /  Good night\nmah nish-MAH?  =  Τι νέα\; / Τι γίν
+ εται\;  /  How's it going?\ntoh-DAH  =  Ευχαριστώ  /  Thank y
+ ou\nbeh-vah-kah-SHAH  =  Παρακαλώ  /  Please / You're welcome\nleh
+ -heet-rah-OHT  =  Αντίο / Θα τα πούμε  /  See you / Goodbye\
+ n\nSentence: shah-LOHM\, mah nish-MAH?\n= Γεια\, τι νέα\;\n\n(CAP
+ S = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 1: Greetings / Χαιρετισμοί
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-2@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20260929T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 2: Yes\, no and me / Ναι\, όχι κι εγώ
+DESCRIPTION:KEN  =  Ναι  /  Yes\nLOH  =  Όχι / Δεν  /  No / Not\ns
+ lee-KHAH  =  Συγγνώμη  /  Sorry / Excuse me\nbeh-SEH-der  =  Εν
+ τάξει  /  OK / Fine\nah-NEE  =  Εγώ  /  I\nah-TAH / AHT  =  Εσύ
+  (σε άντρα / σε γυναίκα)  /  You (to a man / to a woman)\n
+ HOO / HEE  =  Αυτός / Αυτή  /  He / She\nah-NAKH-noo  =  Εμεί
+ ς  /  We\n\nSentence: ah-NEE beh-SEH-der\, toh-DAH.\n= Είμαι καλ
+ ά\, ευχαριστώ.\n\nTip: Hebrew has no word for “am/is/are” in
+  the present. “Ani beseder” is literally “I fine”.\n\n(CAPS = stre
+ ssed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 2: Yes\, no and me / Ναι\, όχι κι εγώ
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-3@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20260930T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 3: Introduce yourself / Συστήσου
+DESCRIPTION:AYKH koh-REEM leh-KHAH / LAKH?  =  Πώς σε λένε\;  /  W
+ hat's your name? (to a man / woman)\nkoh-REEM lee …  =  Με λένε 
+ …  /  My name is …\nnah-EEM meh-OHD  =  Χάρηκα πολύ  /  Nice
+  to meet you\nmeh-AY-foh ah-TAH / AHT?  =  Από πού είσαι\;  /  
+ Where are you from?\nah-NEE mee-yah-VAHN  =  Είμαι από την Ελ
+ λάδα  /  I'm from Greece\nyeh-vah-NEE / yeh-vah-nee-YAH  =  Έλλην
+ ας / Ελληνίδα  /  Greek (man / woman)\nah-NEE meh-dah-BER / meh-
+ dah-BEH-ret eev-REET k'TSAT  =  Μιλάω λίγα εβραϊκά  /  I s
+ peak a little Hebrew (man / woman)\nah-TAH meh-dah-BER ahn-GLEET?  =  Μι
+ λάς αγγλικά\;  /  Do you speak English?\n\nSentence: shah-LOHM\,
+  koh-REEM lee NEE-kos. ah-NEE mee-yah-VAHN.\n= Γεια\, με λένε Ν
+ ίκο. Είμαι από την Ελλάδα.\n\nTip: Greece is “Yavan
+ ”\, from the same root as Ίωνες (Ionians).\n\n(CAPS = stressed syll
+ able\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 3: Introduce yourself / Συστήσου
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-4@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261001T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 4: Numbers 1–10 / Αριθμοί 1–10
+DESCRIPTION:ah-KHAT  =  Ένα  /  One\nSHTAH-yeem  =  Δύο  /  Two\nshah
+ -LOHSH  =  Τρία  /  Three\nar-BAH  =  Τέσσερα  /  Four\nkhah-ME
+ SH  =  Πέντε  /  Five\nSHESH  =  Έξι  /  Six\nSHEH-vah  =  Επτ
+ ά  /  Seven\nshmoh-NEH  =  Οκτώ  /  Eight\nTEH-shah  =  Εννιά  /
+   Nine\nEH-ser  =  Δέκα  /  Ten\n\nSentence: ah-KHAT\, SHTAH-yeem\, sh
+ ah-LOHSH — YAH-lah!\n= Ένα\, δύο\, τρία\, πάμε!\n\nTip: Th
+ ese are the forms Israelis use for counting\, phone numbers and prices.\n\
+ n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 4: Numbers 1–10 / Αριθμοί 1–10
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-5@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261002T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 5: Question words / Ερωτήσεις
+DESCRIPTION:MAH?  =  Τι\;  /  What?\nMEE?  =  Ποιος\;  /  Who?\nAY-f
+ oh?  =  Πού\;  /  Where?\nmah-TAI?  =  Πότε\;  /  When?\nLAH-mah?  
+ =  Γιατί\;  /  Why?\nAYKH?  =  Πώς\;  /  How?\nKAH-mah?  =  Πόσ
+ ο\; / Πόσα\;  /  How much / how many?\nKAH-mah zeh oh-LEH?  =  Πόσ
+ ο κάνει\;  /  How much does it cost?\n\nSentence: slee-KHAH\, AY-foh
+  hah-sheh-roo-TEEM?\n= Συγγνώμη\, πού είναι η τουαλ
+ έτα\;\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 5: Question words / Ερωτήσεις
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-6@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261003T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 6: Survival phrases / Φράσεις επιβίωσης
+DESCRIPTION:ah-NEE LOH meh-VEEN / meh-vee-NAH  =  Δεν καταλαβαί
+ νω  /  I don't understand (man / woman)\nah-TAH yah-KHOL lakh-ZOHR?  =  
+ Μπορείς να το ξαναπείς\;  /  Can you repeat?\nleh-AHT l
+ eh-AHT  =  Σιγά σιγά  /  Slowly\, slowly\nMAH zeh?  =  Τι είν
+ αι αυτό\;  /  What is this?\nZEH / ZOHT  =  Αυτό  /  This (masc.
+  / fem.)\nYESH  =  Υπάρχει / Έχει  /  There is / there are\nAYN
+   =  Δεν υπάρχει / Δεν έχει  /  There isn't\nah-NEE tsah-
+ REEKH / tsree-KHAH EZ-rah  =  Χρειάζομαι βοήθεια  /  I ne
+ ed help (man / woman)\n\nSentence: slee-KHAH\, ah-NEE LOH meh-VEEN. leh-AH
+ T leh-AHT\, beh-vah-kah-SHAH.\n= Συγγνώμη\, δεν καταλαβ
+ αίνω. Σιγά σιγά\, παρακαλώ.\n\nTip: “Le'at le'at” 
+ works exactly like Greek “σιγά σιγά”\, including the relaxed a
+ ttitude.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 6: Survival phrases / Φράσεις επιβίωσ
+ ης
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-7@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261004T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 7: review of the week / Επανάληψη
+DESCRIPTION:Say each one out loud from the Greek:\nΓεια σου / Γει
+ α σας  →  shah-LOHM\nΚαλημέρα  →  BOH-ker TOHV\nΚαλησ
+ πέρα  →  EH-rev TOHV\nΚαληνύχτα  →  LAI-lah TOHV\nΤι ν
+ έα\; / Τι γίνεται\;  →  mah nish-MAH?\nΕυχαριστώ  
+ →  toh-DAH\nΠαρακαλώ  →  beh-vah-kah-SHAH\nΑντίο / Θα 
+ τα πούμε  →  leh-heet-rah-OHT\nΝαι  →  KEN\nΌχι / Δεν 
+  →  LOH\nΣυγγνώμη  →  slee-KHAH\nΕντάξει  →  beh-SEH-
+ der\nΕγώ  →  ah-NEE\nΕσύ (σε άντρα / σε γυναίκα)  
+ →  ah-TAH / AHT\nΑυτός / Αυτή  →  HOO / HEE\nΕμείς  → 
+  ah-NAKH-noo\nΠώς σε λένε\;  →  AYKH koh-REEM leh-KHAH / LAKH?\
+ nΜε λένε …  →  koh-REEM lee …\nΧάρηκα πολύ  →  nah
+ -EEM meh-OHD\nΑπό πού είσαι\;  →  meh-AY-foh ah-TAH / AHT?\n
+ Είμαι από την Ελλάδα  →  ah-NEE mee-yah-VAHN\nΈλλη
+ νας / Ελληνίδα  →  yeh-vah-NEE / yeh-vah-nee-YAH\nΜιλάω 
+ λίγα εβραϊκά  →  ah-NEE meh-dah-BER / meh-dah-BEH-ret eev-REE
+ T k'TSAT\nΜιλάς αγγλικά\;  →  ah-TAH meh-dah-BER ahn-GLEET?\
+ nΈνα  →  ah-KHAT\nΔύο  →  SHTAH-yeem\nΤρία  →  shah-LOHSH\
+ nΤέσσερα  →  ar-BAH\nΠέντε  →  khah-MESH\nΈξι  →  SHE
+ SH\nΕπτά  →  SHEH-vah\nΟκτώ  →  shmoh-NEH\nΕννιά  →  TE
+ H-shah\nΔέκα  →  EH-ser\nΤι\;  →  MAH?\nΠοιος\;  →  MEE?\
+ nΠού\;  →  AY-foh?\nΠότε\;  →  mah-TAI?\nΓιατί\;  →  LAH
+ -mah?\nΠώς\;  →  AYKH?\nΠόσο\; / Πόσα\;  →  KAH-mah?\nΠό
+ σο κάνει\;  →  KAH-mah zeh oh-LEH?\nΔεν καταλαβαίνω
+   →  ah-NEE LOH meh-VEEN / meh-vee-NAH\nΜπορείς να το ξαν
+ απείς\;  →  ah-TAH yah-KHOL lakh-ZOHR?\nΣιγά σιγά  →  leh
+ -AHT leh-AHT\nΤι είναι αυτό\;  →  MAH zeh?\nΑυτό  →  ZE
+ H / ZOHT\nΥπάρχει / Έχει  →  YESH\nΔεν υπάρχει / Δ
+ εν έχει  →  AYN\nΧρειάζομαι βοήθεια  →  ah-NEE 
+ tsah-REEKH / tsree-KHAH EZ-rah\n\n(CAPS = stressed syllable\, kh = Greek 
+ χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 7: review of the week / Επανάληψη
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-8@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261005T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 8: Family / Οικογένεια
+DESCRIPTION:EE-mah  =  Μαμά  /  Mum\nAH-bah  =  Μπαμπάς  /  Dad\
+ nAKH  =  Αδελφός  /  Brother\nah-KHOHT  =  Αδελφή  /  Sister 
+ (also: nurse)\nBEN  =  Γιος  /  Son\nBAHT  =  Κόρη  /  Daughter\nB
+ AH-al / ee-SHAH  =  Σύζυγος / Γυναίκα  /  Husband / Wife (al
+ so: woman)\nmeesh-pah-KHAH  =  Οικογένεια  /  Family\n\nSentence
+ : YESH lee AKH veh-ah-KHOHT.\n= Έχω έναν αδελφό και μια
+  αδελφή.\n\nTip: “Yesh li” (there is to me) = I have. “Ein li
+ ” = I don't have.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 8: Family / Οικογένεια
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-9@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261006T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 9: Food and drink / Φαγητό και ποτό
+DESCRIPTION:MAH-yeem  =  Νερό  /  Water\nkah-FEH  =  Καφές  /  Cof
+ fee\nTEH  =  Τσάι  /  Tea\nLEH-khem  =  Ψωμί  /  Bread\nkhah-LAHV 
+  =  Γάλα  /  Milk\nOH-khel  =  Φαγητό  /  Food\nBEE-rah  =  Μπ
+ ύρα  /  Beer\nYAH-yeen  =  Κρασί  /  Wine\n\nSentence: ah-NEE roh-
+ TSEH / roh-TSAH kah-FEH\, beh-vah-kah-SHAH.\n= Θέλω έναν καφέ\
+ , παρακαλώ.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 9: Food and drink / Φαγητό και ποτό
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-10@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261007T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 10: At the café / Στο καφέ
+DESCRIPTION:tahf-REET  =  Μενού / Κατάλογος  /  Menu\nkhesh-B
+ OHN  =  Λογαριασμός  /  The bill\ntah-EEM  =  Νόστιμο  /
+   Tasty\nbeh-teh-ah-VOHN  =  Καλή όρεξη  /  Enjoy your meal\nleh-
+ KHAH-yeem  =  Στην υγειά μας!  /  Cheers! (lit. to life)\nOHD 
+  =  Κι άλλο / Ακόμα  /  More / another\nBLEE  =  Χωρίς  / 
+  Without\nEEM  =  Με  /  With\n\nSentence: et hah-khesh-BOHN\, beh-vah-k
+ ah-SHAH.\n= Τον λογαριασμό\, παρακαλώ.\n\nTip: “ha-
+ ” in front of a word = “the”. Cheshbon = a bill\, ha-cheshbon = the 
+ bill.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 10: At the café / Στο καφέ
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-11@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261008T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 11: Everyday verbs (now) / Καθημερινά ρήμα
+ τα (ενεστώτας)
+DESCRIPTION:roh-TSEH / roh-TSAH  =  θέλω  /  want (man / woman)\noh-HEV
+  / oh-HEH-vet  =  αγαπώ / μου αρέσει  /  love\, like\nhoh-LE
+ KH / hoh-LEH-khet  =  πηγαίνω  /  go\, walk\nBAH / bah-AH  =  έρ
+ χομαι  /  come\noh-KHEL / oh-KHEH-let  =  τρώω  /  eat\nshoh-TEH 
+ / shoh-TAH  =  πίνω  /  drink\nyoh-DEH-ah / yoh-DAH-at  =  ξέρω  /
+   know\nmeh-dah-BER / meh-dah-BEH-ret  =  μιλάω  /  speak\n\nSentence
+ : ah-NEE oh-HEV fah-LAH-fel.\n= Μου αρέσει το φαλάφελ.\n
+ \nTip: Present-tense verbs don't change for I / you / he. They only change
+  for man vs woman (and plural). Use the form that matches YOU.\n\n(CAPS = 
+ stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 11: Everyday verbs (now) / Καθημερινά ρή
+ ματα (ενεστώτας)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-12@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261009T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 12: Time words / Χρόνος
+DESCRIPTION:hah-YOHM  =  Σήμερα  /  Today\nmah-KHAR  =  Αύριο  /
+   Tomorrow\net-MOHL  =  Χθες  /  Yesterday\nakh-SHAHV  =  Τώρα  / 
+  Now\nah-KHAR KAKH  =  Μετά / Αργότερα  /  Later / afterwards\
+ nk'VAR  =  Ήδη  /  Already\nohd LOH  =  Όχι ακόμα  /  Not yet\n
+ MAH hah-shah-AH?  =  Τι ώρα είναι\;  /  What time is it?\n\nSent
+ ence: neet-rah-EH mah-KHAR!\n= Τα λέμε αύριο!\n\n(CAPS = stress
+ ed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 12: Time words / Χρόνος
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-13@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261010T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 13: Days of the week / Μέρες της εβδομάδ
+ ας
+DESCRIPTION:yohm ree-SHOHN  =  Κυριακή  /  Sunday (day one)\nyohm sh
+ eh-NEE  =  Δευτέρα  /  Monday (day two)\nyohm shlee-SHEE  =  Τρί
+ τη  /  Tuesday (day three)\nyohm reh-vee-EE  =  Τετάρτη  /  Wedne
+ sday (day four)\nyohm khah-mee-SHEE  =  Πέμπτη  /  Thursday (day fiv
+ e)\nyohm shee-SHEE  =  Παρασκευή  /  Friday (day six)\nshah-BAHT 
+  =  Σάββατο  /  Saturday\nshah-VOO-ah  =  Εβδομάδα  /  Week
+ \n\nSentence: neet-rah-EH beh-yohm shee-SHEE.\n= Τα λέμε την Πα
+ ρασκευή.\n\nTip: Same logic as Greek: Δευτέρα = second day\,
+  Τρίτη = third. Hebrew just starts counting on Sunday.\n\n(CAPS = str
+ essed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 13: Days of the week / Μέρες της εβδομ
+ άδας
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-14@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261011T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 14: review of the week / Επανάληψη
+DESCRIPTION:Say each one out loud from the Greek:\nΜαμά  →  EE-mah\n
+ Μπαμπάς  →  AH-bah\nΑδελφός  →  AKH\nΑδελφή  →  
+ ah-KHOHT\nΓιος  →  BEN\nΚόρη  →  BAHT\nΣύζυγος / Γυν
+ αίκα  →  BAH-al / ee-SHAH\nΟικογένεια  →  meesh-pah-KHAH
+ \nΝερό  →  MAH-yeem\nΚαφές  →  kah-FEH\nΤσάι  →  TEH\n
+ Ψωμί  →  LEH-khem\nΓάλα  →  khah-LAHV\nΦαγητό  →  OH-k
+ hel\nΜπύρα  →  BEE-rah\nΚρασί  →  YAH-yeen\nΜενού / Κ
+ ατάλογος  →  tahf-REET\nΛογαριασμός  →  khesh-BOHN\
+ nΝόστιμο  →  tah-EEM\nΚαλή όρεξη  →  beh-teh-ah-VOHN\n
+ Στην υγειά μας!  →  leh-KHAH-yeem\nΚι άλλο / Ακόμ
+ α  →  OHD\nΧωρίς  →  BLEE\nΜε  →  EEM\nθέλω  →  roh-TS
+ EH / roh-TSAH\nαγαπώ / μου αρέσει  →  oh-HEV / oh-HEH-vet\
+ nπηγαίνω  →  hoh-LEKH / hoh-LEH-khet\nέρχομαι  →  BAH / 
+ bah-AH\nτρώω  →  oh-KHEL / oh-KHEH-let\nπίνω  →  shoh-TEH / sh
+ oh-TAH\nξέρω  →  yoh-DEH-ah / yoh-DAH-at\nμιλάω  →  meh-dah-B
+ ER / meh-dah-BEH-ret\nΣήμερα  →  hah-YOHM\nΑύριο  →  mah-KH
+ AR\nΧθες  →  et-MOHL\nΤώρα  →  akh-SHAHV\nΜετά / Αργό
+ τερα  →  ah-KHAR KAKH\nΉδη  →  k'VAR\nΌχι ακόμα  →  o
+ hd LOH\nΤι ώρα είναι\;  →  MAH hah-shah-AH?\nΚυριακή  
+ →  yohm ree-SHOHN\nΔευτέρα  →  yohm sheh-NEE\nΤρίτη  →  
+ yohm shlee-SHEE\nΤετάρτη  →  yohm reh-vee-EE\nΠέμπτη  →  
+ yohm khah-mee-SHEE\nΠαρασκευή  →  yohm shee-SHEE\nΣάββατ
+ ο  →  shah-BAHT\nΕβδομάδα  →  shah-VOO-ah\n\n(CAPS = stressed
+  syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 14: review of the week / Επανάληψη
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-15@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261012T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 15: Getting around / Μετακίνηση
+DESCRIPTION:YAH-mee-nah  =  Δεξιά  /  To the right\nSMOH-lah  =  Αρ
+ ιστερά  /  To the left\nyah-SHAR  =  Ευθεία  /  Straight ahead
+ \nkah-ROHV  =  Κοντά  /  Near\nrah-KHOHK  =  Μακριά  /  Far\nOH
+ -toh-boos  =  Λεωφορείο  /  Bus\nrah-KEH-vet  =  Τρένο  /  T
+ rain\nmoh-NEET  =  Ταξί  /  Taxi\n\nSentence: AYKH meh-gee-EEM lah-YAH
+ M?\n= Πώς πάω στη θάλασσα\;\n\n(CAPS = stressed syllable\,
+  kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 15: Getting around / Μετακίνηση
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-16@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261013T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 16: Places / Μέρη
+DESCRIPTION:BAH-yeet  =  Σπίτι  /  House / home\nkhah-NOOT  =  Μαγ
+ αζί  /  Shop\nSHOOK  =  Λαϊκή αγορά  /  Market\nbayt kah-FEH 
+  =  Καφετέρια  /  Café\nmees-ah-DAH  =  Εστιατόριο  / 
+  Restaurant\nmah-LOHN  =  Ξενοδοχείο  /  Hotel\nYAHM  =  Θάλ
+ ασσα  /  Sea\nEER  =  Πόλη  /  City\n\nSentence: ah-NEE hoh-LEKH l
+ ah-SHOOK.\n= Πάω στη λαϊκή.\n\nTip: “la-” = to the. La-yam 
+ = to the sea\, la-shuk = to the market.\n\n(CAPS = stressed syllable\, kh 
+ = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 16: Places / Μέρη
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-17@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261014T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 17: Describing things / Επίθετα
+DESCRIPTION:gah-DOHL / g'doh-LAH  =  Μεγάλος / Μεγάλη  /  Big\
+ nkah-TAHN / k'tah-NAH  =  Μικρός / Μικρή  /  Small\nTOHV / toh-
+ VAH  =  Καλός / Καλή  /  Good\nRAH / rah-AH  =  Κακός / Κα
+ κή  /  Bad\nyah-FEH / yah-FAH  =  Ωραίος / Ωραία  /  Beautifu
+ l\nKHAHM / khah-MAH  =  Ζεστός / Ζεστή  /  Hot\nKAR / kah-RAH  
+ =  Κρύος / Κρύα  /  Cold\nkhah-DAHSH / khah-dah-SHAH  =  Καιν
+ ούργιος / Καινούργια  /  New\n\nSentence: hah-YOHM KHAHM!
+ \n= Σήμερα κάνει ζέστη!\n\nTip: Feminine usually adds “-
+ ah” at the end\, like Greek -ος → -η/-α.\n\n(CAPS = stressed sylla
+ ble\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 17: Describing things / Επίθετα
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-18@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261015T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 18: Feelings / Συναισθήματα
+DESCRIPTION:MAH shlohm-KHAH / shloh-MEKH?  =  Πώς είσαι\;  /  How a
+ re you? (to a man / woman)\nsah-MEH-akh / s'meh-KHAH  =  Χαρούμεν
+ ος / Χαρούμενη  /  Happy\nah-TSOOV / ah-tsoo-VAH  =  Λυπημ
+ ένος / Λυπημένη  /  Sad\nah-YEF / ah-yeh-FAH  =  Κουρασ
+ μένος / Κουρασμένη  /  Tired\nrah-EV / reh-eh-VAH  =  Πε
+ ινάω  /  Hungry\ntsah-MEH / ts'meh-AH  =  Διψάω  /  Thirsty\nkhoh
+ -LEH / khoh-LAH  =  Άρρωστος / Άρρωστη  /  Sick\nah-SOOK / 
+ ah-soo-KAH  =  Απασχολημένος / -η  /  Busy\n\nSentence: ah-N
+ EE ah-YEF\, ah-VAL sah-MEH-akh.\n= Είμαι κουρασμένος\, α
+ λλά χαρούμενος.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 18: Feelings / Συναισθήματα
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-19@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261016T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 19: Israeli slang / Ισραηλινή αργκό
+DESCRIPTION:sah-BAH-bah  =  Τέλεια / Εντάξει  /  Cool / great 
+ / OK\nYAH-lah  =  Άντε / Έλα / Πάμε  /  Come on / let's go\nWAH
+ -lah  =  Αλήθεια\; / Σοβαρά\;  /  Really? / Wow\nAYN bah-ah-Y
+ AH  =  Κανένα πρόβλημα  /  No problem\nSTAHM  =  Πλάκα 
+ κάνω / Έτσι  /  Just kidding / for no reason\nkhah-VAHL al hah-z'M
+ AHN  =  Απίστευτο! / Φοβερό!  /  Amazing! (lit. waste of ti
+ me)\nbah-lah-GAHN  =  Χάος / Μπάχαλο  /  A mess\, chaos\nTAKH-l
+ es  =  Στην ουσία / Με λίγα λόγια  /  Bottom line / le
+ t's be real\n\nSentence: YAH-lah\, sah-BAH-bah!\n= Άντε\, τέλεια
+ !\n\nTip: You'll hear “yalla”\, “walla” and “sababa” all over 
+ the Eastern Mediterranean\, even in Greek-speaking Cyprus.\n\n(CAPS = stre
+ ssed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 19: Israeli slang / Ισραηλινή αργκό
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-20@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261017T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 20: Numbers and money / Αριθμοί και χρήμα
+ τα
+DESCRIPTION:ah-KHAT es-REH  =  Έντεκα  /  Eleven\nes-REEM  =  Είκ
+ οσι  /  Twenty\nshloh-SHEEM  =  Τριάντα  /  Thirty\nar-bah-EEM  
+ =  Σαράντα  /  Forty\nkhah-mee-SHEEM  =  Πενήντα  /  Fifty\n
+ meh-AH  =  Εκατό  /  Hundred\nEH-lef  =  Χίλια  /  Thousand\nSHE
+ H-kel  =  Σέκελ  /  Shekel (Israeli money)\n\nSentence: zeh oh-LEH es
+ -REEM SHEH-kel.\n= Κάνει είκοσι σέκελ.\n\nTip: Tens are th
+ e small number + “-eem”: shalosh → shloshim. 25 = esrim ve-chamesh (
+ twenty and five).\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 20: Numbers and money / Αριθμοί και χρή
+ ματα
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-21@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261018T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 21: review of the week / Επανάληψη
+DESCRIPTION:Say each one out loud from the Greek:\nΔεξιά  →  YAH-mee
+ -nah\nΑριστερά  →  SMOH-lah\nΕυθεία  →  yah-SHAR\nΚον
+ τά  →  kah-ROHV\nΜακριά  →  rah-KHOHK\nΛεωφορείο  →
+   OH-toh-boos\nΤρένο  →  rah-KEH-vet\nΤαξί  →  moh-NEET\nΣπ
+ ίτι  →  BAH-yeet\nΜαγαζί  →  khah-NOOT\nΛαϊκή αγορά
+   →  SHOOK\nΚαφετέρια  →  bayt kah-FEH\nΕστιατόριο 
+  →  mees-ah-DAH\nΞενοδοχείο  →  mah-LOHN\nΘάλασσα  
+ →  YAHM\nΠόλη  →  EER\nΜεγάλος / Μεγάλη  →  gah-DOH
+ L / g'doh-LAH\nΜικρός / Μικρή  →  kah-TAHN / k'tah-NAH\nΚα
+ λός / Καλή  →  TOHV / toh-VAH\nΚακός / Κακή  →  RAH / 
+ rah-AH\nΩραίος / Ωραία  →  yah-FEH / yah-FAH\nΖεστός / 
+ Ζεστή  →  KHAHM / khah-MAH\nΚρύος / Κρύα  →  KAR / kah-R
+ AH\nΚαινούργιος / Καινούργια  →  khah-DAHSH / khah-
+ dah-SHAH\nΠώς είσαι\;  →  MAH shlohm-KHAH / shloh-MEKH?\nΧαρ
+ ούμενος / Χαρούμενη  →  sah-MEH-akh / s'meh-KHAH\nΛυπ
+ ημένος / Λυπημένη  →  ah-TSOOV / ah-tsoo-VAH\nΚουρασ
+ μένος / Κουρασμένη  →  ah-YEF / ah-yeh-FAH\nΠεινάω 
+  →  rah-EV / reh-eh-VAH\nΔιψάω  →  tsah-MEH / ts'meh-AH\nΆρρω
+ στος / Άρρωστη  →  khoh-LEH / khoh-LAH\nΑπασχολημέ
+ νος / -η  →  ah-SOOK / ah-soo-KAH\nΤέλεια / Εντάξει  
+ →  sah-BAH-bah\nΆντε / Έλα / Πάμε  →  YAH-lah\nΑλήθει
+ α\; / Σοβαρά\;  →  WAH-lah\nΚανένα πρόβλημα  →  A
+ YN bah-ah-YAH\nΠλάκα κάνω / Έτσι  →  STAHM\nΑπίστευ
+ το! / Φοβερό!  →  khah-VAHL al hah-z'MAHN\nΧάος / Μπάχα
+ λο  →  bah-lah-GAHN\nΣτην ουσία / Με λίγα λόγια  
+ →  TAKH-les\nΈντεκα  →  ah-KHAT es-REH\nΕίκοσι  →  es-RE
+ EM\nΤριάντα  →  shloh-SHEEM\nΣαράντα  →  ar-bah-EEM\nΠ
+ ενήντα  →  khah-mee-SHEEM\nΕκατό  →  meh-AH\nΧίλια  
+ →  EH-lef\nΣέκελ  →  SHEH-kel\n\n(CAPS = stressed syllable\, kh =
+  Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 21: review of the week / Επανάληψη
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-22@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261019T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 22: Shopping / Ψώνια
+DESCRIPTION:leek-NOHT  =  Να αγοράσω  /  To buy\nyah-KAR  =  Ακ
+ ριβό  /  Expensive\nZOHL  =  Φτηνό  /  Cheap\nmeev-TSAH  =  Πρ
+ οσφορά  /  Special offer / sale\nkar-TEES ash-RAI  =  Πιστωτι
+ κή κάρτα  /  Credit card\nmeh-zoo-MAHN  =  Μετρητά  /  Cash\
+ nsah-KEET  =  Σακούλα  /  Bag\nef-SHAR …?  =  Γίνεται …\
+ ; / Μπορώ να έχω …\;  /  May I have …? / Is it possible …?
+ \n\nSentence: ef-SHAR leh-shah-LEM beh-kar-TEES?\n= Μπορώ να πλη
+ ρώσω με κάρτα\;\n\nTip: “Efshar” is the most useful word in
+  Israel: efshar mayim? efshar ha-cheshbon?\n\n(CAPS = stressed syllable\, 
+ kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 22: Shopping / Ψώνια
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-23@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261020T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 23: Body and health / Σώμα και υγεία
+DESCRIPTION:ROHSH  =  Κεφάλι  /  Head\nYAHD  =  Χέρι  /  Hand / a
+ rm\nREH-gel  =  Πόδι  /  Foot / leg\nBEH-ten  =  Κοιλιά  /  Stom
+ ach\nLEV  =  Καρδιά  /  Heart\nkoh-EV lee …  =  Με πονάει 
+ …  /  My … hurts\nroh-FEH  =  Γιατρός  /  Doctor\nbayt mer-KAH-
+ khat  =  Φαρμακείο  /  Pharmacy\n\nSentence: koh-EV lee hah-ROHSH
+ .\n= Με πονάει το κεφάλι.\n\n(CAPS = stressed syllable\, k
+ h = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 23: Body and health / Σώμα και υγεία
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-24@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261021T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 24: Yesterday: I did / Αόριστος: έκανα
+DESCRIPTION:hah-YEE-tee  =  Ήμουν  /  I was\nhah-LAKH-tee  =  Πήγα
+   /  I went\nah-KHAL-tee  =  Έφαγα  /  I ate\nshah-TEE-tee  =  Ήπι
+ α  /  I drank\nrah-EE-tee  =  Είδα  /  I saw\nah-MAR-tee  =  Είπα
+   /  I said\nah-SEE-tee  =  Έκανα  /  I did / made\nshah-MAH-tee  =  
+ Άκουσα  /  I heard\n\nSentence: et-MOHL hah-YEE-tee bah-YAHM.\n= Χ
+ θες ήμουν στη θάλασσα.\n\nTip: Past tense “I” always
+  ends in “-tee”\, just like Greek aorist ends in “-α” (πήγα\,
+  έφαγα). Same for men and women.\n\n(CAPS = stressed syllable\, kh = 
+ Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 24: Yesterday: I did / Αόριστος: έκανα
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-25@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261022T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 25: Tomorrow: I will / Μέλλοντας: θα
+DESCRIPTION:ah-NEE eh-LEKH  =  Θα πάω  /  I will go\nah-NEE ah-VOH  = 
+  Θα έρθω  /  I will come\nah-NEE ah-dah-BER  =  Θα μιλήσω  /
+   I will speak\nah-NEE oh-KHAL  =  Θα φάω  /  I will eat\nah-NEE eh-Y
+ EH  =  Θα είμαι  /  I will be\nah-NEE ek-NEH  =  Θα αγοράσ
+ ω  /  I will buy\nah-NEE akh-ZOHR  =  Θα γυρίσω  /  I will come b
+ ack\nah-NEE et-kah-SHER  =  Θα τηλεφωνήσω  /  I will call (pho
+ ne)\n\nSentence: mah-KHAR ah-NEE eh-LEKH lah-YAHM.\n= Αύριο θα πά
+ ω στη θάλασσα.\n\nTip: Future “I” starts with an “e-” o
+ r “a-” sound. Think of it as Hebrew's “θα”.\n\n(CAPS = stressed 
+ syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 25: Tomorrow: I will / Μέλλοντας: θα
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-26@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261023T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 26: Weather and nature / Καιρός και φύση
+DESCRIPTION:SHEH-mesh  =  Ήλιος  /  Sun\nGEH-shem  =  Βροχή  /  R
+ ain\nROO-akh  =  Αέρας  /  Wind\nah-nah-NEEM  =  Σύννεφα  /  C
+ louds\nKHOHF  =  Παραλία  /  Beach\nHAR  =  Βουνό  /  Mountain
+ \nETS  =  Δέντρο  /  Tree\nPRAKH  =  Λουλούδι  /  Flower\n\n
+ Sentence: yoh-RED GEH-shem.\n= Βρέχει.\n\n(CAPS = stressed syllable\
+ , kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 26: Weather and nature / Καιρός και φύσ
+ η
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-27@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261024T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 27: Daily routine / Καθημερινότητα
+DESCRIPTION:lah-KOOM  =  Να σηκωθώ  /  To get up\nlee-SHOHN  =  Ν
+ α κοιμηθώ  /  To sleep\nlah-ah-VOHD  =  Να δουλέψω  /  To
+  work\nah-voh-DAH  =  Δουλειά  /  Work / job\nKHEH-der  =  Δωμά
+ τιο  /  Room\nmeet-BAKH  =  Κουζίνα  /  Kitchen\nmee-TAH  =  Κ
+ ρεβάτι  /  Bed\nah-NEE tsah-REEKH lah-LEH-khet  =  Πρέπει να
+  φύγω  /  I have to go\n\nSentence: ah-NEE hoh-LEKH lee-SHOHN.\n= Πά
+ ω για ύπνο.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 27: Daily routine / Καθημερινότητα
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-28@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261025T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 28: review of the week / Επανάληψη
+DESCRIPTION:Say each one out loud from the Greek:\nΝα αγοράσω  →
+   leek-NOHT\nΑκριβό  →  yah-KAR\nΦτηνό  →  ZOHL\nΠροσφ
+ ορά  →  meev-TSAH\nΠιστωτική κάρτα  →  kar-TEES ash-R
+ AI\nΜετρητά  →  meh-zoo-MAHN\nΣακούλα  →  sah-KEET\nΓί
+ νεται …\; / Μπορώ να έχω …\;  →  ef-SHAR …?\nΚεφ
+ άλι  →  ROHSH\nΧέρι  →  YAHD\nΠόδι  →  REH-gel\nΚοιλ
+ ιά  →  BEH-ten\nΚαρδιά  →  LEV\nΜε πονάει …  →  ko
+ h-EV lee …\nΓιατρός  →  roh-FEH\nΦαρμακείο  →  bayt 
+ mer-KAH-khat\nΉμουν  →  hah-YEE-tee\nΠήγα  →  hah-LAKH-tee\n
+ Έφαγα  →  ah-KHAL-tee\nΉπια  →  shah-TEE-tee\nΕίδα  →  
+ rah-EE-tee\nΕίπα  →  ah-MAR-tee\nΈκανα  →  ah-SEE-tee\nΆκο
+ υσα  →  shah-MAH-tee\nΘα πάω  →  ah-NEE eh-LEKH\nΘα έρθω
+   →  ah-NEE ah-VOH\nΘα μιλήσω  →  ah-NEE ah-dah-BER\nΘα φά
+ ω  →  ah-NEE oh-KHAL\nΘα είμαι  →  ah-NEE eh-YEH\nΘα αγο
+ ράσω  →  ah-NEE ek-NEH\nΘα γυρίσω  →  ah-NEE akh-ZOHR\nΘ
+ α τηλεφωνήσω  →  ah-NEE et-kah-SHER\nΉλιος  →  SHEH-me
+ sh\nΒροχή  →  GEH-shem\nΑέρας  →  ROO-akh\nΣύννεφα  
+ →  ah-nah-NEEM\nΠαραλία  →  KHOHF\nΒουνό  →  HAR\nΔέν
+ τρο  →  ETS\nΛουλούδι  →  PRAKH\nΝα σηκωθώ  →  la
+ h-KOOM\nΝα κοιμηθώ  →  lee-SHOHN\nΝα δουλέψω  →  lah
+ -ah-VOHD\nΔουλειά  →  ah-voh-DAH\nΔωμάτιο  →  KHEH-der\n
+ Κουζίνα  →  meet-BAKH\nΚρεβάτι  →  mee-TAH\nΠρέπει
+  να φύγω  →  ah-NEE tsah-REEKH lah-LEH-khet\n\n(CAPS = stressed sy
+ llable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 28: review of the week / Επανάληψη
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-29@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261026T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 29: Linking words / Σύνδεσμοι
+DESCRIPTION:veh-  =  Και  /  And (glued to the next word)\nah-VAL  =  Α
+ λλά  /  But\nKEE  =  Επειδή / Γιατί  /  Because\nAHZ  =  Ο
+ πότε / Λοιπόν  /  So / then\nGAHM  =  Επίσης / Και  /  
+ Also / too\nRAHK  =  Μόνο  /  Only\nEEM  =  Αν  /  If (sounds like 
+ “with”)\nah-NEE khoh-SHEV sheh …  =  Νομίζω ότι …  /  I t
+ hink that …\n\nSentence: ah-NEE loh-MED eev-REET KEE ah-NEE oh-HEV et ha
+ h-sah-FAH.\n= Μαθαίνω εβραϊκά επειδή αγαπώ τη 
+ γλώσσα.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 29: Linking words / Σύνδεσμοι
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ivrit-daily-30@hebrew-course
+DTSTAMP:20260927T000000Z
+DTSTART:20261027T090000
+DURATION:PT15M
+SUMMARY:Hebrew day 30: Wishes and celebrations / Ευχές
+DESCRIPTION:MAH-zahl TOHV  =  Συγχαρητήρια  /  Congratulations\
+ nyohm hoo-LEH-det sah-MEH-akh  =  Χρόνια πολλά (γενέθλι
+ α)  /  Happy birthday\nshah-BAHT shah-LOHM  =  Καλό Σαββατοκ
+ ύριακο  /  Have a good Sabbath (Fri–Sat greeting)\nKHAG sah-MEH-ak
+ h  =  Καλές γιορτές  /  Happy holiday\nKOHL hah-kah-VOHD  =  
+ Μπράβο!  /  Well done!\nbeh-hats-lah-KHAH  =  Καλή επιτυχ
+ ία  /  Good luck\nreh-foo-AH shleh-MAH  =  Περαστικά  /  Get we
+ ll soon\nshah-NAH toh-VAH  =  Καλή χρονιά  /  Happy new year\n\n
+ Sentence: KOHL hah-kah-VOHD! see-YAHM-tah shloh-SHEEM yohm!\n= Μπράβ
+ ο! Τελείωσες τριάντα μέρες!\n\n(CAPS = stressed syll
+ able\, kh = Greek χ)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hebrew day 30: Wishes and celebrations / Ευχές
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
