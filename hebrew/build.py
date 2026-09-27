@@ -1,4 +1,4 @@
-"""Build the Ivrit Daily app and calendar reminders from lessons.json.
+"""Build the Ivrit Daily app and calendar reminders from lessons.json and bonus.json.
 
 Outputs:
   index.html         standalone page (open in any browser)
@@ -14,6 +14,8 @@ REMINDER_TIME = "090000"   # local time, floating (follows the phone's time zone
 REVIEW_DAYS = {7, 14, 21, 28}
 
 lessons = json.loads((HERE / "lessons.json").read_text(encoding="utf-8"))
+bonus_path = HERE / "bonus.json"
+bonus = json.loads(bonus_path.read_text(encoding="utf-8")) if bonus_path.exists() else None
 
 
 def schedule():
@@ -29,8 +31,16 @@ def schedule():
     return days
 
 
+def say(item):
+    """Pronunciation with both forms when the phrase changes for men and women."""
+    if item.get("g") and item.get("s_f"):
+        return f"{item['s']} / {item['s_f']}"
+    return item["s"]
+
+
 def ics_escape(text):
-    return text.replace("\\", "\\\\").replace(";", "\;").replace(",", "\\,").replace("\n", "\\n")
+    return (text.replace("\\", "\\\\").replace(";", "\\;")
+            .replace(",", "\\,").replace("\n", "\\n"))
 
 
 def fold(line):
@@ -47,23 +57,29 @@ def fold(line):
     return "\r\n ".join(out)
 
 
+def day_text(d, li, week):
+    """Title and body of one day's reminder."""
+    if li is not None:
+        L = lessons[li]
+        title = f"Hebrew day {d}: {L['title']} / {L['el_title']}"
+        body = [f"{say(w)}  =  {w['el']}  /  {w['en']}" for w in L["words"]]
+        body += ["", "Sentence: " + say(L["sentence"]), "= " + L["sentence"]["el"]]
+        if L.get("tip"):
+            body += ["", "Tip: " + L["tip"]]
+    else:
+        title = f"Hebrew day {d}: review of the week / Επανάληψη"
+        body = ["Say each one out loud from the Greek:"]
+        body += [f"{w['el']}  →  {say(w)}" for i in week for w in lessons[i]["words"]]
+    return title, body
+
+
 def build_ics():
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Ivrit Daily//EN",
              "CALSCALE:GREGORIAN", "X-WR-CALNAME:Ivrit Daily (Hebrew)"]
     for d, li, week in schedule():
         day = START + timedelta(days=d - 1)
-        if li is not None:
-            L = lessons[li]
-            summary = f"Hebrew day {d}: {L['title']} / {L['el_title']}"
-            body = [f"{w['s']}  =  {w['el']}  /  {w['en']}" for w in L["words"]]
-            body += ["", "Sentence: " + L["sentence"]["s"], "= " + L["sentence"]["el"]]
-            if L.get("tip"):
-                body += ["", "Tip: " + L["tip"]]
-        else:
-            summary = f"Hebrew day {d}: review of the week / Επανάληψη"
-            body = ["Say each one out loud from the Greek:"]
-            body += [f"{w['el']}  →  {w['s']}" for i in week for w in lessons[i]["words"]]
-        desc = "\n".join(body) + "\n\n(CAPS = stressed syllable, kh = Greek χ)"
+        summary, body = day_text(d, li, week)
+        desc = "\n".join(body) + "\n\n(CAPS = stressed syllable, kh = Greek χ. When two forms are given, the first is for a man and the second for a woman.)"
         stamp = day.strftime("%Y%m%d")
         lines += [
             "BEGIN:VEVENT",
@@ -81,12 +97,19 @@ def build_ics():
     (HERE / "hebrew-daily.ics").write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
 
 
+def page(platform=""):
+    """The page body (title, styles, markup, script) with the lesson data filled in."""
+    src = (HERE / "template.html").read_text(encoding="utf-8")
+    data = json.dumps(lessons, ensure_ascii=False).replace("</", "<\\/")
+    extra = json.dumps(bonus, ensure_ascii=False).replace("</", "<\\/")
+    return (src.replace("__LESSONS__", data).replace("__BONUS__", extra)
+            .replace("__START__", START.isoformat()).replace("/*__PLATFORM__*/", platform))
+
+
 def build_html():
-    page = (HERE / "template.html").read_text(encoding="utf-8")
-    page = page.replace("__LESSONS__", json.dumps(lessons, ensure_ascii=False)).replace("__START__", START.isoformat())
-    head, _, rest = page.partition("<style>")
+    head, _, rest = page().partition("<style>")
     full = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
-            '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+            '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
             + head + "<style>" + rest.replace("</style>", "</style>\n</head>\n<body>", 1) + "\n</body>\n</html>\n")
     (HERE / "index.html").write_text(full, encoding="utf-8")
 

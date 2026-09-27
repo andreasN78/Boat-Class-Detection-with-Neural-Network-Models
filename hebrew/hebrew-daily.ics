@@ -17,7 +17,8 @@ DESCRIPTION:shah-LOHM  =  Γεια σου / Γεια σας  /  Hello / Goo
  ou\nbeh-vah-kah-SHAH  =  Παρακαλώ  /  Please / You're welcome\nleh
  -heet-rah-OHT  =  Αντίο / Θα τα πούμε  /  See you / Goodbye\
  n\nSentence: shah-LOHM\, mah nish-MAH?\n= Γεια\, τι νέα\;\n\n(CAP
- S = stressed syllable\, kh = Greek χ)
+ S = stressed syllable\, kh = Greek χ. When two forms are given\, the firs
+ t is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 1: Greetings / Χαιρετισμοί
@@ -38,7 +39,8 @@ DESCRIPTION:KEN  =  Ναι  /  Yes\nLOH  =  Όχι / Δεν  /  No / Not\ns
  ς  /  We\n\nSentence: ah-NEE beh-SEH-der\, toh-DAH.\n= Είμαι καλ
  ά\, ευχαριστώ.\n\nTip: Hebrew has no word for “am/is/are” in
   the present. “Ani beseder” is literally “I fine”.\n\n(CAPS = stre
- ssed syllable\, kh = Greek χ)
+ ssed syllable\, kh = Greek χ. When two forms are given\, the first is for
+  a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 2: Yes\, no and me / Ναι\, όχι κι εγώ
@@ -64,7 +66,8 @@ DESCRIPTION:AYKH koh-REEM leh-KHAH / LAKH?  =  Πώς σε λένε\;  /  W
   koh-REEM lee NEE-kos. ah-NEE mee-yah-VAHN.\n= Γεια\, με λένε Ν
  ίκο. Είμαι από την Ελλάδα.\n\nTip: Greece is “Yavan
  ”\, from the same root as Ίωνες (Ionians).\n\n(CAPS = stressed syll
- able\, kh = Greek χ)
+ able\, kh = Greek χ. When two forms are given\, the first is for a man an
+ d the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 3: Introduce yourself / Συστήσου
@@ -84,7 +87,8 @@ DESCRIPTION:ah-KHAT  =  Ένα  /  One\nSHTAH-yeem  =  Δύο  /  Two\nshah
    Nine\nEH-ser  =  Δέκα  /  Ten\n\nSentence: ah-KHAT\, SHTAH-yeem\, sh
  ah-LOHSH — YAH-lah!\n= Ένα\, δύο\, τρία\, πάμε!\n\nTip: Th
  ese are the forms Israelis use for counting\, phone numbers and prices.\n\
- n(CAPS = stressed syllable\, kh = Greek χ)
+ n(CAPS = stressed syllable\, kh = Greek χ. When two forms are given\, the
+  first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 4: Numbers 1–10 / Αριθμοί 1–10
@@ -103,7 +107,8 @@ DESCRIPTION:MAH?  =  Τι\;  /  What?\nMEE?  =  Ποιος\;  /  Who?\nAY-f
  ο\; / Πόσα\;  /  How much / how many?\nKAH-mah zeh oh-LEH?  =  Πόσ
  ο κάνει\;  /  How much does it cost?\n\nSentence: slee-KHAH\, AY-foh
   hah-sheh-roo-TEEM?\n= Συγγνώμη\, πού είναι η τουαλ
- έτα\;\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ έτα\;\n\n(CAPS = stressed syllable\, kh = Greek χ. When two forms are 
+ given\, the first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 5: Question words / Ερωτήσεις
@@ -128,7 +133,8 @@ DESCRIPTION:ah-NEE LOH meh-VEEN / meh-vee-NAH  =  Δεν καταλαβαί
  T leh-AHT\, beh-vah-kah-SHAH.\n= Συγγνώμη\, δεν καταλαβ
  αίνω. Σιγά σιγά\, παρακαλώ.\n\nTip: “Le'at le'at” 
  works exactly like Greek “σιγά σιγά”\, including the relaxed a
- ttitude.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ ttitude.\n\n(CAPS = stressed syllable\, kh = Greek χ. When two forms are 
+ given\, the first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 6: Survival phrases / Φράσεις επιβίωσ
@@ -171,7 +177,8 @@ DESCRIPTION:Say each one out loud from the Greek:\nΓεια σου / Γει
  H / ZOHT\nΥπάρχει / Έχει  →  YESH\nΔεν υπάρχει / Δ
  εν έχει  →  AYN\nΧρειάζομαι βοήθεια  →  ah-NEE 
  tsah-REEKH / tsree-KHAH EZ-rah\n\n(CAPS = stressed syllable\, kh = Greek 
- χ)
+ χ. When two forms are given\, the first is for a man and the second for a
+  woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 7: review of the week / Επανάληψη
@@ -191,7 +198,8 @@ DESCRIPTION:EE-mah  =  Μαμά  /  Mum\nAH-bah  =  Μπαμπάς  /  Dad\
  so: woman)\nmeesh-pah-KHAH  =  Οικογένεια  /  Family\n\nSentence
  : YESH lee AKH veh-ah-KHOHT.\n= Έχω έναν αδελφό και μια
   αδελφή.\n\nTip: “Yesh li” (there is to me) = I have. “Ein li
- ” = I don't have.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ ” = I don't have.\n\n(CAPS = stressed syllable\, kh = Greek χ. When two
+  forms are given\, the first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 8: Family / Οικογένεια
@@ -209,7 +217,8 @@ DESCRIPTION:MAH-yeem  =  Νερό  /  Water\nkah-FEH  =  Καφές  /  Cof
   =  Γάλα  /  Milk\nOH-khel  =  Φαγητό  /  Food\nBEE-rah  =  Μπ
  ύρα  /  Beer\nYAH-yeen  =  Κρασί  /  Wine\n\nSentence: ah-NEE roh-
  TSEH / roh-TSAH kah-FEH\, beh-vah-kah-SHAH.\n= Θέλω έναν καφέ\
- , παρακαλώ.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ , παρακαλώ.\n\n(CAPS = stressed syllable\, kh = Greek χ. When two
+  forms are given\, the first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 9: Food and drink / Φαγητό και ποτό
@@ -230,7 +239,8 @@ DESCRIPTION:tahf-REET  =  Μενού / Κατάλογος  /  Menu\nkhesh-B
   Without\nEEM  =  Με  /  With\n\nSentence: et hah-khesh-BOHN\, beh-vah-k
  ah-SHAH.\n= Τον λογαριασμό\, παρακαλώ.\n\nTip: “ha-
  ” in front of a word = “the”. Cheshbon = a bill\, ha-cheshbon = the 
- bill.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ bill.\n\n(CAPS = stressed syllable\, kh = Greek χ. When two forms are giv
+ en\, the first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 10: At the café / Στο καφέ
@@ -253,7 +263,8 @@ DESCRIPTION:roh-TSEH / roh-TSAH  =  θέλω  /  want (man / woman)\noh-HEV
  : ah-NEE oh-HEV fah-LAH-fel.\n= Μου αρέσει το φαλάφελ.\n
  \nTip: Present-tense verbs don't change for I / you / he. They only change
   for man vs woman (and plural). Use the form that matches YOU.\n\n(CAPS = 
- stressed syllable\, kh = Greek χ)
+ stressed syllable\, kh = Greek χ. When two forms are given\, the first is
+  for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 11: Everyday verbs (now) / Καθημερινά ρή
@@ -273,7 +284,8 @@ DESCRIPTION:hah-YOHM  =  Σήμερα  /  Today\nmah-KHAR  =  Αύριο  /
  nk'VAR  =  Ήδη  /  Already\nohd LOH  =  Όχι ακόμα  /  Not yet\n
  MAH hah-shah-AH?  =  Τι ώρα είναι\;  /  What time is it?\n\nSent
  ence: neet-rah-EH mah-KHAR!\n= Τα λέμε αύριο!\n\n(CAPS = stress
- ed syllable\, kh = Greek χ)
+ ed syllable\, kh = Greek χ. When two forms are given\, the first is for a
+  man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 12: Time words / Χρόνος
@@ -296,7 +308,8 @@ DESCRIPTION:yohm ree-SHOHN  =  Κυριακή  /  Sunday (day one)\nyohm sh
  \n\nSentence: neet-rah-EH beh-yohm shee-SHEE.\n= Τα λέμε την Πα
  ρασκευή.\n\nTip: Same logic as Greek: Δευτέρα = second day\,
   Τρίτη = third. Hebrew just starts counting on Sunday.\n\n(CAPS = str
- essed syllable\, kh = Greek χ)
+ essed syllable\, kh = Greek χ. When two forms are given\, the first is fo
+ r a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 13: Days of the week / Μέρες της εβδομ
@@ -333,7 +346,8 @@ DESCRIPTION:Say each one out loud from the Greek:\nΜαμά  →  EE-mah\n
  yohm shlee-SHEE\nΤετάρτη  →  yohm reh-vee-EE\nΠέμπτη  →  
  yohm khah-mee-SHEE\nΠαρασκευή  →  yohm shee-SHEE\nΣάββατ
  ο  →  shah-BAHT\nΕβδομάδα  →  shah-VOO-ah\n\n(CAPS = stressed
-  syllable\, kh = Greek χ)
+  syllable\, kh = Greek χ. When two forms are given\, the first is for a m
+ an and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 14: review of the week / Επανάληψη
@@ -352,7 +366,8 @@ DESCRIPTION:YAH-mee-nah  =  Δεξιά  /  To the right\nSMOH-lah  =  Αρ
  -toh-boos  =  Λεωφορείο  /  Bus\nrah-KEH-vet  =  Τρένο  /  T
  rain\nmoh-NEET  =  Ταξί  /  Taxi\n\nSentence: AYKH meh-gee-EEM lah-YAH
  M?\n= Πώς πάω στη θάλασσα\;\n\n(CAPS = stressed syllable\,
-  kh = Greek χ)
+  kh = Greek χ. When two forms are given\, the first is for a man and the 
+ second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 15: Getting around / Μετακίνηση
@@ -372,7 +387,8 @@ DESCRIPTION:BAH-yeet  =  Σπίτι  /  House / home\nkhah-NOOT  =  Μαγ
  ασσα  /  Sea\nEER  =  Πόλη  /  City\n\nSentence: ah-NEE hoh-LEKH l
  ah-SHOOK.\n= Πάω στη λαϊκή.\n\nTip: “la-” = to the. La-yam 
  = to the sea\, la-shuk = to the market.\n\n(CAPS = stressed syllable\, kh 
- = Greek χ)
+ = Greek χ. When two forms are given\, the first is for a man and the seco
+ nd for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 16: Places / Μέρη
@@ -394,7 +410,8 @@ DESCRIPTION:gah-DOHL / g'doh-LAH  =  Μεγάλος / Μεγάλη  /  Big\
  ούργιος / Καινούργια  /  New\n\nSentence: hah-YOHM KHAHM!
  \n= Σήμερα κάνει ζέστη!\n\nTip: Feminine usually adds “-
  ah” at the end\, like Greek -ος → -η/-α.\n\n(CAPS = stressed sylla
- ble\, kh = Greek χ)
+ ble\, kh = Greek χ. When two forms are given\, the first is for a man and
+  the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 17: Describing things / Επίθετα
@@ -416,7 +433,9 @@ DESCRIPTION:MAH shlohm-KHAH / shloh-MEKH?  =  Πώς είσαι\;  /  How a
  -LEH / khoh-LAH  =  Άρρωστος / Άρρωστη  /  Sick\nah-SOOK / 
  ah-soo-KAH  =  Απασχολημένος / -η  /  Busy\n\nSentence: ah-N
  EE ah-YEF\, ah-VAL sah-MEH-akh.\n= Είμαι κουρασμένος\, α
- λλά χαρούμενος.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ λλά χαρούμενος.\n\n(CAPS = stressed syllable\, kh = Greek χ.
+  When two forms are given\, the first is for a man and the second for a wo
+ man.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 18: Feelings / Συναισθήματα
@@ -440,7 +459,8 @@ DESCRIPTION:sah-BAH-bah  =  Τέλεια / Εντάξει  /  Cool / great
  t's be real\n\nSentence: YAH-lah\, sah-BAH-bah!\n= Άντε\, τέλεια
  !\n\nTip: You'll hear “yalla”\, “walla” and “sababa” all over 
  the Eastern Mediterranean\, even in Greek-speaking Cyprus.\n\n(CAPS = stre
- ssed syllable\, kh = Greek χ)
+ ssed syllable\, kh = Greek χ. When two forms are given\, the first is for
+  a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 19: Israeli slang / Ισραηλινή αργκό
@@ -461,7 +481,8 @@ DESCRIPTION:ah-KHAT es-REH  =  Έντεκα  /  Eleven\nes-REEM  =  Είκ
  H-kel  =  Σέκελ  /  Shekel (Israeli money)\n\nSentence: zeh oh-LEH es
  -REEM SHEH-kel.\n= Κάνει είκοσι σέκελ.\n\nTip: Tens are th
  e small number + “-eem”: shalosh → shloshim. 25 = esrim ve-chamesh (
- twenty and five).\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ twenty and five).\n\n(CAPS = stressed syllable\, kh = Greek χ. When two f
+ orms are given\, the first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 20: Numbers and money / Αριθμοί και χρή
@@ -504,7 +525,8 @@ DESCRIPTION:Say each one out loud from the Greek:\nΔεξιά  →  YAH-mee
  EM\nΤριάντα  →  shloh-SHEEM\nΣαράντα  →  ar-bah-EEM\nΠ
  ενήντα  →  khah-mee-SHEEM\nΕκατό  →  meh-AH\nΧίλια  
  →  EH-lef\nΣέκελ  →  SHEH-kel\n\n(CAPS = stressed syllable\, kh =
-  Greek χ)
+  Greek χ. When two forms are given\, the first is for a man and the secon
+ d for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 21: review of the week / Επανάληψη
@@ -526,7 +548,8 @@ DESCRIPTION:leek-NOHT  =  Να αγοράσω  /  To buy\nyah-KAR  =  Ακ
  \n\nSentence: ef-SHAR leh-shah-LEM beh-kar-TEES?\n= Μπορώ να πλη
  ρώσω με κάρτα\;\n\nTip: “Efshar” is the most useful word in
   Israel: efshar mayim? efshar ha-cheshbon?\n\n(CAPS = stressed syllable\, 
- kh = Greek χ)
+ kh = Greek χ. When two forms are given\, the first is for a man and the s
+ econd for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 22: Shopping / Ψώνια
@@ -545,7 +568,8 @@ DESCRIPTION:ROHSH  =  Κεφάλι  /  Head\nYAHD  =  Χέρι  /  Hand / a
  …  /  My … hurts\nroh-FEH  =  Γιατρός  /  Doctor\nbayt mer-KAH-
  khat  =  Φαρμακείο  /  Pharmacy\n\nSentence: koh-EV lee hah-ROHSH
  .\n= Με πονάει το κεφάλι.\n\n(CAPS = stressed syllable\, k
- h = Greek χ)
+ h = Greek χ. When two forms are given\, the first is for a man and the se
+ cond for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 23: Body and health / Σώμα και υγεία
@@ -566,7 +590,8 @@ DESCRIPTION:hah-YEE-tee  =  Ήμουν  /  I was\nhah-LAKH-tee  =  Πήγα
  θες ήμουν στη θάλασσα.\n\nTip: Past tense “I” always
   ends in “-tee”\, just like Greek aorist ends in “-α” (πήγα\,
   έφαγα). Same for men and women.\n\n(CAPS = stressed syllable\, kh = 
- Greek χ)
+ Greek χ. When two forms are given\, the first is for a man and the second
+  for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 24: Yesterday: I did / Αόριστος: έκανα
@@ -588,7 +613,8 @@ DESCRIPTION:ah-NEE eh-LEKH  =  Θα πάω  /  I will go\nah-NEE ah-VOH  =
  ne)\n\nSentence: mah-KHAR ah-NEE eh-LEKH lah-YAHM.\n= Αύριο θα πά
  ω στη θάλασσα.\n\nTip: Future “I” starts with an “e-” o
  r “a-” sound. Think of it as Hebrew's “θα”.\n\n(CAPS = stressed 
- syllable\, kh = Greek χ)
+ syllable\, kh = Greek χ. When two forms are given\, the first is for a ma
+ n and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 25: Tomorrow: I will / Μέλλοντας: θα
@@ -606,7 +632,8 @@ DESCRIPTION:SHEH-mesh  =  Ήλιος  /  Sun\nGEH-shem  =  Βροχή  /  R
  louds\nKHOHF  =  Παραλία  /  Beach\nHAR  =  Βουνό  /  Mountain
  \nETS  =  Δέντρο  /  Tree\nPRAKH  =  Λουλούδι  /  Flower\n\n
  Sentence: yoh-RED GEH-shem.\n= Βρέχει.\n\n(CAPS = stressed syllable\
- , kh = Greek χ)
+ , kh = Greek χ. When two forms are given\, the first is for a man and the
+  second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 26: Weather and nature / Καιρός και φύσ
@@ -626,7 +653,8 @@ DESCRIPTION:lah-KOOM  =  Να σηκωθώ  /  To get up\nlee-SHOHN  =  Ν
  τιο  /  Room\nmeet-BAKH  =  Κουζίνα  /  Kitchen\nmee-TAH  =  Κ
  ρεβάτι  /  Bed\nah-NEE tsah-REEKH lah-LEH-khet  =  Πρέπει να
   φύγω  /  I have to go\n\nSentence: ah-NEE hoh-LEKH lee-SHOHN.\n= Πά
- ω για ύπνο.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ ω για ύπνο.\n\n(CAPS = stressed syllable\, kh = Greek χ. When two
+  forms are given\, the first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 27: Daily routine / Καθημερινότητα
@@ -662,7 +690,8 @@ DESCRIPTION:Say each one out loud from the Greek:\nΝα αγοράσω  →
  -ah-VOHD\nΔουλειά  →  ah-voh-DAH\nΔωμάτιο  →  KHEH-der\n
  Κουζίνα  →  meet-BAKH\nΚρεβάτι  →  mee-TAH\nΠρέπει
   να φύγω  →  ah-NEE tsah-REEKH lah-LEH-khet\n\n(CAPS = stressed sy
- llable\, kh = Greek χ)
+ llable\, kh = Greek χ. When two forms are given\, the first is for a man 
+ and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 28: review of the week / Επανάληψη
@@ -682,7 +711,8 @@ DESCRIPTION:veh-  =  Και  /  And (glued to the next word)\nah-VAL  =  Α
  “with”)\nah-NEE khoh-SHEV sheh …  =  Νομίζω ότι …  /  I t
  hink that …\n\nSentence: ah-NEE loh-MED eev-REET KEE ah-NEE oh-HEV et ha
  h-sah-FAH.\n= Μαθαίνω εβραϊκά επειδή αγαπώ τη 
- γλώσσα.\n\n(CAPS = stressed syllable\, kh = Greek χ)
+ γλώσσα.\n\n(CAPS = stressed syllable\, kh = Greek χ. When two forms
+  are given\, the first is for a man and the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 29: Linking words / Σύνδεσμοι
@@ -705,7 +735,8 @@ DESCRIPTION:MAH-zahl TOHV  =  Συγχαρητήρια  /  Congratulations\
  ll soon\nshah-NAH toh-VAH  =  Καλή χρονιά  /  Happy new year\n\n
  Sentence: KOHL hah-kah-VOHD! see-YAHM-tah shloh-SHEEM yohm!\n= Μπράβ
  ο! Τελείωσες τριάντα μέρες!\n\n(CAPS = stressed syll
- able\, kh = Greek χ)
+ able\, kh = Greek χ. When two forms are given\, the first is for a man an
+ d the second for a woman.)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Hebrew day 30: Wishes and celebrations / Ευχές
